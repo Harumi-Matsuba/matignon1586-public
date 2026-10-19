@@ -4,7 +4,6 @@
 
 | | |
 |---|---|
-| Version | **v0.1** (2026-10-20) |
 | Status | **Partial reading** (most of the three pages reads as French, but 28 signs have no value and some passages are unread) |
 | Relation to prior work | No earlier reading was found (Tomokiyo: undeciphered; Bourdeau's ledger: never attempted). The table is Tomokiyo's reconstruction; some inferred values agree with Burford's key (see "What is new here" below) |
 | Human checking | **No human has checked the transcription.** Both transcriptions are by AI (first Claude, second Codex). Agreement between AIs is not a substitute for human checking |
@@ -17,7 +16,7 @@ A reading of the enciphered part of a letter from Marshal Matignon to King Henri
 - Closing: « Du camp devant Monsegur ce [?] May 1586 », signed Matignon (checked on the image).
 - Status before this work: Tomokiyo lists ff. 218–219 as Cipher-2, "undeciphered" ([Cryptiana](https://cryptiana.web.fc2.com/code/henryiii.htm)); D. Bourdeau's ledger (cyphersolver), item 12: "never attempted" (version of 18 Oct 2026). We found no reading of this letter in the places we searched on 19–20 Oct 2026 (listed in [SOURCES.en.md](SOURCES.en.md)).
 
-## Status (v0.1, partial)
+## Status (partial)
 | page | signs | given a value by Tomokiyo's table alone | with inferred values | shuffled-key controls (1,000) scoring at or above the real key |
 |---|---|---|---|---|
 | f. 218r | 713 | 92.1% | 98.7% | 0 |
@@ -62,7 +61,7 @@ python3 -m unittest discover -s tests
 | docs/OPEN.en.md | signs with no value, unread passages, facts not checked |
 | calib/, src/calib.py | the calibration on fr. 15573 f. 103v |
 | second/, src/compare2.py | second transcription (Codex), prompt, run logs, comparison with the first |
-| CITATION.cff | citation information (version, date) |
+| CITATION.cff | citation information (author, date) |
 | SOURCES.en.md | sources and the search for earlier work |
 
 Every document also has a Japanese version (the file name without `.en`).

@@ -4,7 +4,6 @@
 
 | | |
 |---|---|
-| 版 | **v0.1**（2026-10-20） |
 | 状態 | **部分的な読み**（3ページの大半が文として通るが、値の分からない記号28か所と読めない箇所がある） |
 | 先行との関係 | 先行の読みは見つかっていない（友清氏は undeciphered、Bourdeau 氏の台帳は never attempted）。表は友清氏の復元、推定した値の一部は Burford 氏の鍵と一致（下の「先行研究の成果」） |
 | 人の確認 | **人は書き起こしを確かめていない。** 書き起こしは2回とも AI（1回目 Claude、2回目 Codex）によるもの。AI どうしの一致は、人の確認の代わりにならない |
@@ -17,7 +16,7 @@
 - 結び：« Du camp devant Monsegur ce [?] May 1586 »、署名 Matignon（画像で確かめた）。
 - 先行：友清理士氏は ff. 218–219 を Cipher-2 の書簡として挙げ、「undeciphered」としている（[Cryptiana](https://cryptiana.web.fc2.com/code/henryiii.htm)）。D. Bourdeau 氏の台帳（cyphersolver）の12番も「never attempted」（2026-10-18 の版）。2026-10-19〜20 に調べた範囲では、この書簡の読みは見つかっていない（調べた先は [SOURCES.md](SOURCES.md)）。
 
-## 現状（v0.1、部分的）
+## 現状（部分的）
 | ページ | 記号の数 | 表の記号だけで値が付いた割合 | 推定も合わせた割合 | 鍵をかき混ぜた対照（1000回）で本物以上 |
 |---|---|---|---|---|
 | f. 218r | 713 | 92.1% | 98.7% | 0回 |
@@ -66,7 +65,7 @@ python3 -m unittest discover -s tests
 | docs/METHOD.md | 方法、数字、AI の使用、限界 |
 | docs/OPEN.md | 値の分からない記号、読めない箇所、確かめていないこと |
 | second/、src/compare2.py | 2回目の書き起こし（Codex）、依頼文、実行記録、1回目との突き合わせ |
-| CITATION.cff | 引用の情報（版・日付） |
+| CITATION.cff | 引用の情報（名義・日付） |
 | calib/、src/calib.py | 較正（fr. 15573 f. 103v の6行）の書き起こし・参照・突き合わせ |
 | SOURCES.md | 出典と、先行の確かめ |
 
