@@ -65,7 +65,6 @@ python3 -m unittest discover -s tests
 | docs/METHOD.md | 方法、数字、AI の使用、限界 |
 | docs/OPEN.md | 値の分からない記号、読めない箇所、確かめていないこと |
 | second/、src/compare2.py | 2回目の書き起こし（Codex）、依頼文、実行記録、1回目との突き合わせ |
-| CITATION.cff | 引用の情報（名義・日付） |
 | calib/、src/calib.py | 較正（fr. 15573 f. 103v の6行）の書き起こし・参照・突き合わせ |
 | SOURCES.md | 出典と、先行の確かめ |
 

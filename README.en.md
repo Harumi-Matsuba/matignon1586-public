@@ -61,7 +61,6 @@ python3 -m unittest discover -s tests
 | docs/OPEN.en.md | signs with no value, unread passages, facts not checked |
 | calib/, src/calib.py | the calibration on fr. 15573 f. 103v |
 | second/, src/compare2.py | second transcription (Codex), prompt, run logs, comparison with the first |
-| CITATION.cff | citation information (author, date) |
 | SOURCES.en.md | sources and the search for earlier work |
 
 Every document also has a Japanese version (the file name without `.en`).
