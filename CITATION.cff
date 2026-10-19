@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "Matignon to the King, camp before Monségur, May 1586: a first reading of the cipher (BnF fr. 15572 ff. 218r–219r)"
+authors:
+  - name: "Harumi-Matsuba"
+version: "0.1"
+date-released: "2026-10-20"
+repository-code: "https://github.com/Harumi-Matsuba/matignon1586-public"
+license: ["MIT", "CC-BY-4.0"]
+keywords:
+  - cryptography
+  - cipher
+  - Henri III
+  - 1586

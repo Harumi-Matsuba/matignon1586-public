@@ -60,9 +60,28 @@ ff. 218v and 219r were transcribed after seeing Burford's key. The "after" value
 - Following this, the sign written as il in f. 218r lines 9–10 was corrected to tt (les): « pour veoir les ennemis », « de les empescher ». The key was not tuned on the six calibration lines.
 - Meaning: the reading, transcription and key together, may be wrong in about one letter in four. In this letter, values of ambiguous signs were chosen by context, so errors are expected to be fewer than in the six calibration lines (read without context). That has not been checked.
 
+## Second transcription (independent reading, 20 Oct 2026)
+- Reader: OpenAI's Codex CLI (codex-cli 0.163.0-alpha.10.2, bundled with the ChatGPT app; default model, whose name does not appear in the run log).
+- Input: only the line images of the three pages (each line cut into a left and a right half; f. 218r 27 lines, f. 218v 34, f. 219r 19; cut by `second/crop_lines.py` from the same deskewed images as the first pass) and the prompt (`second/PROMPT.md`). The prompt gives only sign names and shape descriptions — no values, no first transcription, no key, no decoded text. Names that reveal a value (=que, =pour, par2 …) were replaced by neutral names such as W01–W18 (mapping in `second/names_map.tsv`).
+- Runs: one run per page, each started separately from an empty folder with `codex exec --ephemeral -s read-only`. The run logs (`second/codex_events_*.jsonl`) contain a single reply each, with no commands and no file reads. The output is `second/transcription2_*.txt`, unedited.
+- Comparison with the first pass (`src/compare2.py`: edit distance between the sign sequences of each page, divided by the number of signs in the first pass; dividers `|` left out):
+
+| page | signs (1st / 2nd) | sign-name agreement | value agreement | sign-name agreement after relabelling |
+|---|---|---|---|---|
+| f. 218r | 713 / 710 | 76.7% | 77.4% | 84.2% |
+| f. 218v | 927 / 934 | 63.2% | 65.6% | 85.0% |
+| f. 219r | 499 / 507 | 61.5% | 63.9% | 76.8% |
+| all | 2,139 / 2,151 | 67.3% | 69.1% | 82.8% |
+
+- Most differences are signs of the same shape to which the second reader consistently gave another name. Taking, for each name of the second pass, the first-pass name it was most often aligned with (5 times or more) gives 13 pairs: f→fi, fn→f, fi→dl, nu→dl, 2→4, g2→J, phi→th, pl→zk, Ln→A<, .2.→.3., sl→=la, co→en2, ?→=que. The written shape descriptions apparently did not tie the names to the shapes. On the images of the left half of f. 218v line 6 and the right half of line 5 we checked that the second reader calls the δ-shape (dl), the 4 with a slanting stroke and the sign after ꝗ (J) fi, 2 and g2 respectively. The other pairs were not checked on the images. The last column applies this relabelling to the second pass; because the relabelling is fitted to the same data, it overstates the agreement.
+- Of the disagreements left after relabelling (`second/diff_after_relabel.tsv`, 283 places), the main ones that change a value are: 4H (e) read as 4 (a), 18 places; fn read as y2, 15; 8 (t) read as dl (e), 11; 2 (m) read as J, 9. The first pass chose between similar signs by context in places (see Limits). These have not yet been rechecked on the images ([OPEN.en.md](OPEN.en.md)).
+- Decoding the second transcription with the same key and running the shuffled-key control (1,000 each): the real key scores −3.095 (f. 218r), −3.910 (f. 218v), −3.480 (f. 219r), above the best shuffled key (−3.952, −4.275, −4.360); shuffled ≥ real 0/1000 on all three pages. The scores are lower than for the first pass (−2.35 to −2.59) because of the naming differences and misreadings above.
+- The key and the reading were not changed after the second transcription (the version stays v0.1).
+
 ## Use of AI
 - Transcription of the images, inferred values, decoding, scripts and documents were done by Anthropic's Claude (Claude Code, model Claude Opus 5.5). A person (the owner of this repository) chose the target, saved the images and decided on publication.
-- Each line was transcribed into sign names once. There were no independent second passes and no voting.
+- In the first pass each line was transcribed into sign names once, without voting. A second transcription by another AI (Codex) is described in the section above.
+- **No human has checked the transcription.** Both transcriptions were made by AI; agreement between AIs is not a substitute for human checking.
 - For ff. 218v and 219r, the plain text was first read from the images, and only then were the lines transcribed into sign names. The transcription may have been pulled toward that first reading.
 
 ## Limits

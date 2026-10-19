@@ -1,0 +1,36 @@
+L01: r xs 4 sp | W04 | y2 | co | r T sp 8 | r 4 | W08 | 9 + T 2 6 a + f od r | cd .10.
+L02: 6 r T xs r | m 2 n s a | r5 # a n # fi rh | pl fi | th | f fi T 6 r | y2 o3
+L03: pi y r xs? # | W01 | W03 o3 n a | 6b o3 r5 8 | 9 n sp pl // g2 N | 9 y2 | 2 H fi # |
+L04: .2. | phi | 4H? | 6 2 T // 6 sp | F n fi r5 | W07 | + 4 n o3 xs # 9 F th y2 | 6b 2 n s 8 |
+L05: a n r5 fi # | ?{three-barred loop} | .8-. | fn | T // lq N g2 | .2. | s 2 6 // y2 | nu T | .g2. | 2 T // 6 sp |
+L06: th fi x | W01 lq g2 | m 2 n sp o3 f r 6 8 | a r5 2 th + f H r r5 | L1 y2 2
+L07: 6 * oc W03 n g2 fi W01 lq W03 // n a g2 fi n H r T # .2. tri + f 6 tri
+L08: y2 fi r5 | lq r 9 n s 8 | y o3 od f fn | W07 | .2. | .W05. + n fi 9 | + | L1? f r 27 .?{three-barred loop}. 2
+L09: F 2 fn + r5 9 fi r5 | 27 + T 2 6 8 2 n tri fi | s r fn | f # od r co xo r5
+L10: 2 W03 # 4 T 6 .24. W10 .lq. o3 6 tri | .20. | W04 | co | sp fi rh 2 + T xs f | g2 o3
+L11: n 6 sp | f 6 s // 40 // 9 r W07 pl fi # f H r T 3bar | 2 y2 + 6 8 | s W03 fi |
+L12: Qh pi 4 sp // n 6 tri | 9 W03 # T y2 .24. g2 // x lq + tri N | .10. | 6 r | W11 .9. n
+L13: r5 2 y2 .15. .2. | .W05. | y2 4 s r xs f oc r | co | W05 ?{three-barred loop} H r | .10. y 2 y2 a # // .Id.
+L14: N xo T 2 cd .2. | pl | fi sp | s F // fn fi g2 | .25. f 2 ?{loop with descending leg} | fn s fi x | ?{three-barred loop} | s fi lq 2
+L15: W11 | 2 W03 r | r5 4 pl ^L1 6 8 fi | .W13. .th. | L1 # fi ?{barred double loop} r 9 4 6 8 r sp 27 fi pl r
+L16: sp s F 4 g2 W07 rC | W13 | lq r fn .2. g2 + H y2 | W01 | 2 | W03 fi | r 3bar pl r5 fi
+L17: xs 4 .W09. ?{9 with angular foot} pl r g2 s F fi | T fi # fn | phi xo s W03 fi box 4 s 8 | 10 | 9 n
+L18: r5 2 y2 | g2 fi T y r .W09. | ?{three-barred loop} | cd pl r5 o3 g2 pl 8 4 .W09. | fi H r | 6 W03 | g2 fi
+L19: s // th # T r W07 | W01 lq 6 .W11. pl lq 2 f fn 4 | R? | xo x fi o3 n r5 xo |
+L20: y + 9 T fi 6 f rh | ?{three-barred loop} | 10 | pl rh 4 th r o3 y2 ?{three-barred loop} | y o3 6 y2 | 8 n L1 fi
+L21: # 2 .31. | tri rh 2 y2 9 | fn 4 | rh T n r5 fi . | W06? | g2 o3 40 4 fn | 2 psi #
+L22: 6 9 + 6 8 9? | F 4 th rh r ^rx L1 .2. T y 8 # r | ?{three-barred loop} | H r | sp 4 r5 2 .Bf. # fi
+L23: g2 o3 lq T 8 n // 6 | .2. | s fi rx? ?{overwritten barred loop} ^L1 .W11. T o3 th y 9 r5 fi fn | r g2 pl lq o3 y2 4 # |
+L24: y + 9 f s a fi .Qh. | L1 | x | W13 8 n r5 | .2. | ?{barred double loop} fi | fn n fi tri r | g2 th y2 T 2
+L25: 6 8 | Qh? | pl r5 o3 L1 // g2 | n a f // 6 fn | ?{three-barred loop} | g2 // 6 9 n s 8 | sp ^r5 | 9 T | g2 2 y2 6
+L26: fi | g2 2 | 9 n s 8 | W11 | co | + T // n r5 | m + f s a | fi fn .17. | W13 | sp fi g2 | 9 r
+L27: L1 4 sp s F fi fn | ?{three-barred loop} | W13 | lq r 9 f s 8 | fn ^r5 .2. | g2 2 n H y2 | lq T 6 fi .12. |
+L28: + | tri r5 2 6 .12. | 9 n box f ?{barred double loop} th y a r sp | ?{three-barred loop} | .10. | r5 fi s o3 L1 // n sp | r y2 s W03
+L29: 4 .Qh. | W03 .xo. | .th. | 3 6 . | W01 | lq g2 | r r5 2 | 13 | g2 + y | 2 y2 fn 4 | .2. | # r s o3
+L30: Id rh 4 # | co | ?{barred double loop} W03 r | pl r5 o3 T n 6 s fi | g2 T box f fn 2 g2 .W09. | .xo. | y2 | m
+L31: // T # y2 n r5 | W07 | ?{barred double loop} rh // y2 | W01 y | g2 fi | r5 + | 6 4 s r xs L1 f # r . | 9 co | m
+L32: L1 n # r th 4 6 f rh | .2. | .W05. pi r5 r a 2 n tri y2 4 xo | 2 psi + n 6 9 r5 fi
+L33: W05 | rh 4 | s o3 y 8 fi | xo T 2 6 oc | + | T sp | 6b nu # s r fn | fi H r g2 | 9 n
+L34: ?{cropped looped symbol} f 6 T fi 6 8 | pl fn | Qh | f o3 T H fn | W07 T fi // y2 | ?{three-barred loop} | s r | g2 fi r5 2 | .W.
+
+NOTES: Best-effort shape transcription; frequent ambiguity among 4, #, H, f, fi, fn, g2, and looped signs. The recurring three-barred loop has no confident table match. L22–L23 contain small or overwritten signs; L32–L34 have cropped edge symbols.

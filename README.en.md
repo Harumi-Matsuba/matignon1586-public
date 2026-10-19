@@ -2,6 +2,15 @@
 
 [日本語 README](README.md)
 
+| | |
+|---|---|
+| Version | **v0.1** (2026-10-20) |
+| Status | **Partial reading** (most of the three pages reads as French, but 28 signs have no value and some passages are unread) |
+| Relation to prior work | No earlier reading was found (Tomokiyo: undeciphered; Bourdeau's ledger: never attempted). The table is Tomokiyo's reconstruction; some inferred values agree with Burford's key (see "What is new here" below) |
+| Human checking | **No human has checked the transcription.** Both transcriptions are by AI (first Claude, second Codex). Agreement between AIs is not a substitute for human checking |
+| Figures | Control: shuffled keys scoring at or above the real key, 0 of 1,000 on each page / Calibration: 74.8% letter agreement on six lines with a contemporary decipherment / Second transcription (Codex, without seeing the first): 67.3% sign-name agreement (82.8% after correcting for signs given a different name). Details in [docs/METHOD.en.md](docs/METHOD.en.md) |
+| Use of AI | Transcription, inferred values, decoding, scripts and documents by Claude (Claude Opus 5.5); second transcription by OpenAI Codex. A person chose the target, saved the images and decided on publication (see "Use of AI" below) |
+
 A reading of the enciphered part of a letter from Marshal Matignon to King Henri III, BnF Français 15572 ff. 218r–219r, with Mayenne–Forget's Cipher-2 as reconstructed by Satoshi Tomokiyo.
 
 - Source: BnF Français 15572, Gallica ark:/12148/btv1b9061879d, views 225 (f. 218r) and 226 (ff. 218v–219r). f. 218r has 26 cipher lines after clear text, f. 218v is all cipher (34 lines), f. 219r has 19 cipher lines, then the clear closing and signature.
@@ -52,11 +61,13 @@ python3 -m unittest discover -s tests
 | docs/METHOD.en.md | method, figures, calibration, use of AI, limits |
 | docs/OPEN.en.md | signs with no value, unread passages, facts not checked |
 | calib/, src/calib.py | the calibration on fr. 15573 f. 103v |
+| second/, src/compare2.py | second transcription (Codex), prompt, run logs, comparison with the first |
+| CITATION.cff | citation information (version, date) |
 | SOURCES.en.md | sources and the search for earlier work |
 
 Every document also has a Japanese version (the file name without `.en`).
 
 ## Use of AI
-Transcription, inferred values, decipherment, scripts and documents were done by Anthropic's Claude (Claude Code, Claude Opus 5.5). A person chose the target, saved the images and decided on publication.
+Transcription, inferred values, decipherment, scripts and documents were done by Anthropic's Claude (Claude Code, Claude Opus 5.5). A person chose the target, saved the images and decided on publication. The second transcription was made by OpenAI's Codex (codex-cli 0.163.0-alpha.10.2, default model) without seeing the first transcription, the key or any values. No human has checked the transcription.
 
 Licence: code MIT, own text and data CC BY 4.0 ([LICENSE](LICENSE)).

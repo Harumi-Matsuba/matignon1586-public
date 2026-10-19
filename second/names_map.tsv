@@ -1,0 +1,20 @@
+# EN: Neutral names used in the prompt for the second transcription (second/PROMPT.md) → sign names of data/key.tsv. Names that reveal a value were replaced so that the second reader did not see any value.
+# 2回目の書き起こしの依頼文（second/PROMPT.md）で使った中立の名前 → data/key.tsv の記号名。値が分かる名前は、読み手に値を見せないために置き換えた。
+W01	=qui
+W02	=que
+W03	=est
+W04	=il
+W05	=la
+W06	=par
+W07	=et
+W08	=bien
+W09	=ment
+W10	=plus
+W11	=vous
+W12	=les
+W13	par2
+W15	=pour
+W16	en2
+W17	sr
+W18	.VMa.
+L1	Ln

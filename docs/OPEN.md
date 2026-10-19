@@ -38,6 +38,11 @@
 - # と横線つきの tt（les）、ϖ の山2つ（il）と3つ（est）：較正で取り違えが見つかった。f. 218r の2か所は直したが、ほかにも残っている可能性がある。
 - χ°（鍵では q）と、横線つきの h（鍵では armée）：較正の行では pour、tous と読むと合った。この書簡の該当箇所（f. 218v 9行の χ°、f. 219r 1行の .χ°.）は確かめ直していない。
 
+## 2回目の書き起こしとの食い違い（画像で見直していない）
+- 別の AI（Codex）による2回目の書き起こしと比べ、名前のずれを補正した後にも283か所の食い違いが残る（`second/diff_after_relabel.tsv`、[METHOD.md](METHOD.md) の「2回目の書き起こし」）。
+- 値が変わる主なもの：4H（e）↔ 4（a）18か所、fn ↔ y2 15か所、8（t）↔ dl（e）11か所、2（m）↔ J 9か所、=est ↔ =il 3か所。
+- どちらが正しいかは、画像で1か所ずつ見直すまで決められない。見直しはまだしていない。
+
 ## 人名・地名で確かめていないこと
 - **Sacramore de Birague**：Fugger 新聞の人名索引に「Birago, Sagamoro † 1587」（軍人）がある（https://fuggerzeitungen.univie.ac.at/en/personen/birago-sagamoro ）。Monségur の包囲での負傷を書いた刊本は見つけていない。Burford 氏の fr. 15573 f. 385 の読みにも « sacramor[e] » が出る。
 - **sieur de Saly／Saily**：f.218v で2回（綴りが違う）。人物は調べていない。

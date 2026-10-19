@@ -38,6 +38,11 @@ Signs that `src/decode.py` cannot value. Line numbers are the c-numbers of `data
 - # and barred tt (les); ϖ with two humps (il) and three (est): confusions found in the calibration. Two places in f. 218r were corrected; others may remain.
 - χ° (q in the key) and the barred h (armée in the key): in the calibration lines they stand where the decipherment has « pour » and « tous ». The places in this letter (χ° in f. 218v line 9, .χ°. in f. 219r line 1) have not been rechecked.
 
+## Disagreements with the second transcription (not rechecked on the images)
+- Compared with a second transcription by another AI (Codex), 283 disagreements remain after relabelling (`second/diff_after_relabel.tsv`; see "Second transcription" in [METHOD.en.md](METHOD.en.md)).
+- The main ones that change a value: 4H (e) vs 4 (a), 18 places; fn vs y2, 15; 8 (t) vs dl (e), 11; 2 (m) vs J, 9; =est vs =il, 3.
+- Which reading is right cannot be decided until each place is rechecked on the images. That has not been done yet.
+
 ## Names and facts not checked
 - **Sacramore de Birague**: the person index of the Fugger newsletters has "Birago, Sagamoro † 1587" (military) (https://fuggerzeitungen.univie.ac.at/en/personen/birago-sagamoro). No printed source on his wound at the siege of Monségur was found. Burford's reading of fr. 15573 f. 385 also has « sacramor[e] ».
 - **sieur de Saly / Saily**: twice in f. 218v, spelt differently. Not identified.
