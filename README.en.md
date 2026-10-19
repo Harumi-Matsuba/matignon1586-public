@@ -16,7 +16,7 @@ A reading of the enciphered part of a letter from Marshal Matignon to King Henri
 | f. 219r | 499 | 89.8% | 97.4% | 0 |
 
 - Most of all three pages reads as French ([docs/READING.md](docs/READING.md); the reading is in French, the notes in Japanese). 28 signs have no value and a few short passages are unread ([docs/OPEN.md](docs/OPEN.md)).
-- **Calibration**: six cipher lines of fr. 15573 f. 103v (same cipher, contemporary decipherment in the margin) were read blind with the same names and key. Against that decipherment the letter agreement is 74.2% (70.4% with Tomokiyo's table alone). Nearly half of the differences come from code signs missing from the key (a place name, a long word); the rest are mostly confusions of similar signs. Read the reading here with that in mind.
+- **Calibration**: six cipher lines of fr. 15573 f. 103v (same cipher, contemporary decipherment in the margin) were read blind with the same names and key. Against that decipherment the letter agreement is 74.8% (71.0% with Tomokiyo's table alone). Nearly half of the differences come from code signs missing from the key (a place name, a long word); the rest are mostly confusions of similar signs. Read the reading here with that in mind.
 
 ## Content (summary)
 - A day's battery (about 1,200 shots) did less than hoped: the wall was stronger than expected. Three breaches were made.
