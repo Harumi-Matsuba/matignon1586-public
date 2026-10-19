@@ -1,0 +1,36 @@
+L01: A< xs 4H rC | W04 | y2 | oc r T rC 8 | r # | W08 | 9 + T 27 6 a y2 fi g2 r | cd .10. |
+L02: 6 r T xs r | m 27 n s a | r5 4H a n # dl rh | Qh dl | th | fi dl T 6 r | fn o3
+L03: pi y r xs # | W01 | W03 o3 n a | 6b o3 r5 8 | 9 n rC pl // J N | 9 y2 | 27 H dl # |
+L04: 2 | phi | zk? | 6 27 T // 6 rC | F n dl r5 W07 | + 4 n o3 x # 9 F th y2 | 6b 27 n s 8 |
+L05: a r r5 dl # | W02 | th | f | T // lq N J | 2 | s 27 6 // fn | nu T | od | 27 T // 6 rC |
+L06: 4 dl x | W01 lq J | m 27 n rC o3 fi r 6 8 | a r5 27 th + fi H r r5 | L1 y2 27
+L07: 6 * x W03 n od dl W01 lq W03 // n a od dl n H r T # 2 tri + fi 6 tri
+L08: fn dl r5 | lq r 9 n s 8 | y o3 g2 fi f | W07 | 2 | W05 4? n dl 9 + | pl fi r dy W02 2
+L09: F 27 fn + r5 9 dl r5 | dy + T 27 6 8 27 n tri dl s r f | fi 4H g2 r oc W15 r5
+L10: 27 W03 # 4H T 6 27 4 W10 lq o3 6 tri | 27 a | W04 | oc | rC dl rh 27 + T xs fi od o3
+L11: n 6 rC | fi 6 s // 40 // 9 r W07 pl dl 4H fi H r T 3bar | 27 y2 + 6 8 | s W03 dl |
+L12: Qh pi 4H rC // n 6 tri | 9 W03 # T fn 27 4 J // x lq + tri N | .10. | 6 r | W11 9 n
+L13: r5 27 y2 .15. | 2 | W05 | fn 4H s r xs fi x r | oc | W05 W02 H r | .10. y 27 y2 a # // Id
+L14: N xo T 27 cd 2 | Qh | dl rC | s F // f dl J | 27 r5 fi 27 X2? | fn s dl x | W02 | s dl lq 27
+L15: W11 | 27 W03 r | r5 4H pl ^a 6 8 dl | W13 W12 | pl # dl od r 9 4H 6 8 r rC dy dl pl r
+L16: rC | s F 4H J W07 rC | W13 | lq r fn 2 J + H y2 | W01 | 27 W03 dl | r 3bar pl r5 dl
+L17: xs 4H W09 2 pl r J s F dl | T dl # f | phi W15 s W03 dl box 4H s 8 | 10 | 9 n
+L18: r5 27 y2 | J dl T y r W09 | W02 | cd pl r5 o3 od pl 8 4H W09 | dl H r | 6 W03 | J dl
+L19: s // th # T r W07 | W01 lq 6 W11 pl lq 27 fi f 4H | pl | W15 x dl o3 n r5 W15 |
+L20: y + 9 T dl 6 fi rh | W02 | 10 | pl rh 4H th r o3 y2 W02 | y o3 6 fn | 8 rh dl
+L21: 4H 27 .31. | tri rh 27 fn 9 | fn 4H rh T n s dl | W06 | J o3 40 4H fn | 27 psi #
+L22: 6 9 + 6 8 od | F 4H th rh r ^27 L1 27 T y 8 # r | W02 | H r | rC 4H r5 27 Bf? # dl
+L23: J o3 lq T 8 n // 6 | 2 | s dl 27 W02 ^Id W11 T o3 th y 9 r5 dl f r od pl lq o3 y2 4H #
+L24: y + 9 fi s a dl Qh | L1 | x | W13 8 n r5 | 2 | od dl | f n dl tri r | J th y2 T 27
+L25: 6 8 | W12 | pl r5 o3 pl // J | n a fi // 6 f | W02 | od // 6 9 n s 8 | rC ^r5 | 9 T | od 27 y2 6
+L26: dl | od 27 | 9 n s 8 W11 | oc + T // n r5 | m + fi s a | dl f .17. | W13 | rC dl J | 9 r
+L27: pl 4H rC s F dl fn | W02 | W13 | lq r 9 fi s 8 | fn ^r5 2 | J 27 n H y2 | lq T 6 dl .12. |
+L28: H | tri r5 27 6 .12. | 9 n box fi od th y a r rC | W02 | .10. | r5 dl s o3 L1 // n rC | r fn s W03
+L29: 4H Qh | W03 W15 | W12 | 3 6 | W01 | lq J | r r5 27 | 13 | od + y | 27 y2 fn 4H | 2 | # r s o3
+L30: Id rh 4H # | oc | od W03 r | pl r5 o3 T n 6 s dl | J T box fi f 27 od W09 W15 | y2 | m
+L31: // T # fn n r5 | W07 | od rh // y2 | W01 y J dl | r5 + | 6 4H s r xs L1 fi # r | 9 oc | m
+L32: L1 n # r th 4H 6 fi rh | 2 | W05 pi r5 r a 27 n tri fn 4H W15 | 27 psi? + n 6 9 r5 dl
+L33: od | rh 4H | s o3 y 8 dl | xo T 27 6 x | + | T rC | 6b nu # s r f | dl H r J | 9 n
+L34: W08 fi 6 T dl 6 8 | Qh fn | W12 | fi o3 T # f | W07 T dl // y2 W02 | s r | J dl r5 27 | ?{W-shaped flourish}
+
+NOTES: Especially difficult: L02 and L05 hooked barred signs; L04 zk; L08 pl and 4; L14 X2; L22 Bf and raised 27; L23 raised Id; L28–L29 dotted numbers; L32 psi; L34 final flourish. The distinctions among 4H/#, fi/f/fn, and od/rC are sometimes uncertain.

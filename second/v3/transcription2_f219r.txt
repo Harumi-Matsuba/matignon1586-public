@@ -1,0 +1,20 @@
+L01: pl? n sl | 4 T | W06 g2 fi r5 | .2. | s r f n r tri 4H | .26. | # | .xo. sl | .2. | 3 + | W01 6
+L02: dl f o3 | fn a | 9 T | L1 4 fi 9 | f r | T 4H x H | dl 6 g2 rh? dl sl | # 4H g2 fi r5 r rh
+L03: W07 | s dl | H r f | 2 | W18 | W01 | fn dl | f o3 6 g2 | tri T dl r5 r 9 | m // rh g2 r f |
+L04: J 4 box // n pi lq fi # // 6 a | y y | 9 + T 4 fn a + n tri dl | W07 f r fi 4H
+L05: y2 4H r5 o3 6 g2 W06 | 2 y2 | s dl H r f | .2. | g2 4H 6 9 | 4 # 2 r f | .2. sl // r5 g2 dl
+L06: W01 y f dl rh o3 fi g2 | W08? 6 dl th 4H * 4 n # dl .2. | rh dl m # 4 n sl
+L07: s F fi # W12 | pl? 6 f | W07 .#. | 4 T g2 r5 dl f | ?{crossed curved strokes} | s o3 6 g2 n 6 x dl # | .E.
+L08: tri T dl 2 r ^9 sl | s 4H | pl? 4 y2 f | W08 | th r | W01 | W03 | lq r | W10 | fi 2 pl? o3 | # g2
+L09: + 6 a | s dl f g2 | lq r | L1 + y2 4H | .E. | .26. | .32. s 4H y 4 | W03 4 6 f | sl | // 4H
+L10: 9 n 6 4 fi r5 r .E. | 4 T 3bar | f n 4H tri r J | .12. th n H dl J W04 | 6 4H | ^r5 ^dl ^a ^r ^6 ^n ^# ^o3
+L11: 6b L1 th lq g2 | .31. | 4H J L1? r r5 4H rh | 27 y2 | pl? // Id o3 fi | rh # J // lq 9 + a
+L12: sl | .A<. | 10 | J s dl T | W02 | .E. | W11 | W16 L1 f // Id dl 6 g2 | th y2 9 dl T 4 fi g2 |
+L13: + 9 x r r5 g2 R | W01 | 2 dl | tri 4 r5 9 dl # + | 27 W16 | W16 T y2 dl r5 | rect y
+L14: 4 T L1 6 a + n g2 A< | phi | 19 | 4 | W05 | 27 fi sl pl? o3 f n g2 n o3 6 | 9 x 27
+L15: fi s a sl ^r5 | 27 T 2 4 y2 6 A< | W04 | 6 4 | divd L1 r5 o3 fi f a | 30 | y y | 9 n 6 g2
+L16: r r5 2 fi xs n // fn | 4 | J L1 | m n dl T rh dl | rh dl .16. | W13? 2 dl 9 4H
+L17: s fi 6 f | W16 | o3 fn g2 | m // r5 g2 | pi o3 .L1. dl | g2 pl? fi fn n // 6 | W07 | 6 y2
+L18: L1 | 9 fi dl T | 2 dl # s R | 4 T s th fn | fi 6 9 n s 4H | 2 | pl? r r5 n lq
+L19: 20 ?{barred Z with curled foot} | ?{low arch with horizontal feet} | .2. | lq o3 6 tri 4H T rh
+NOTES: Uncertain distinctions include fi/f/fn, 4H/#, 2/sl, and L1; several small hooked signs marked pl? are ambiguous. L10 has a cramped insertion below the main line, represented with ^. L16 W13? and the two unnamed L19 signs are especially difficult.

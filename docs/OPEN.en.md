@@ -2,7 +2,7 @@
 
 [日本語](OPEN.md)
 
-## Signs with no value (28 places, out of 2,139 signs on the three pages)
+## Signs with no value (28 places, out of 2,137 signs on the three pages)
 Signs that `src/decode.py` cannot value. Line numbers are the c-numbers of `data/transcription_*.txt`.
 
 | sign | times | where | context, candidates |
@@ -38,10 +38,11 @@ Signs that `src/decode.py` cannot value. Line numbers are the c-numbers of `data
 - # and barred tt (les); ϖ with two humps (il) and three (est): confusions found in the calibration. Two places in f. 218r were corrected; others may remain.
 - χ° (q in the key) and the barred h (armée in the key): in the calibration lines they stand where the decipherment has « pour » and « tous ». The places in this letter (χ° in f. 218v line 9, .χ°. in f. 219r line 1) have not been rechecked.
 
-## Disagreements with the second transcription (not rechecked on the images)
-- Compared with a second transcription by another AI (Codex), 283 disagreements remain after relabelling (`second/diff_after_relabel.tsv`; see "Second transcription" in [METHOD.en.md](METHOD.en.md)).
-- The main ones that change a value: 4H (e) vs 4 (a), 18 places; fn vs y2, 15; 8 (t) vs dl (e), 11; 2 (m) vs J, 9; =est vs =il, 3.
-- Which reading is right cannot be decided until each place is rechecked on the images. That has not been done yet.
+## Disagreements with the second transcription (Codex)
+- For ff. 218v and 219r, 197 disagreements with v1 were rechecked on the images and 19 corrected (`second/review_f218v_f219r.tsv`; "Review on the images" in [METHOD.en.md](METHOD.en.md)). Most of the 178 left unchanged are similar shapes that cannot be told apart on the images (4H / # / 4, fn / y2, 2 / J …); which is right is not settled.
+- f. 218r was not reviewed.
+- Disagreements with the independent second transcription made after the review (v4) remain after relabelling in `second/v4/diff_after_relabel.tsv`; they have not been rechecked on the images.
+- **The χ° sign (xo)**: the six corrected places (f. 218v lines 17, 19 (twice), 30, 32; f. 219r line 7). In the key (Tomokiyo's table) it is q, but in context each place fits pour, and the same shape stands at a « pour » in the calibration lines (fr. 15573 f. 103v). In this letter xo = pour is the natural reading, but the key has not been changed (that is left to separate work). The reading ([READING.en.md](READING.en.md)) keeps pour.
 
 ## Names and facts not checked
 - **Sacramore de Birague**: the person index of the Fugger newsletters has "Birago, Sagamoro † 1587" (military) (https://fuggerzeitungen.univie.ac.at/en/personen/birago-sagamoro). No printed source on his wound at the siege of Monségur was found. Burford's reading of fr. 15573 f. 385 also has « sacramor[e] ».

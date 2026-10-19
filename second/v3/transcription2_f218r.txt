@@ -1,0 +1,28 @@
+L01: [plain]
+L02: [plain] W01 y2 | 4 R + 6 8 | W03 dl | a n r5 r |
+L03: A< # 4H sp | .3. | 9 o3 | x J | r | s dl 6 sp | W12? // th 4 fn | W01 | fn dl | m dl n r5 r 6 a |
+L04: .31. | .W17. | 16 | .17. | 2 box dl s 8 | W02 | lq // 6 | fn r sp a // f 8 | L1 r5 // sl f sp |
+L05: .25. | .W05. | gam th # 4 n H dl | J dl a rh // Id 4 | + th xs n .21. sl dl n H dl th r5 r
+L06: .W02. | lq o3 6 | fn dl | s T n 9 o3 f a | y o3 6 | y2 | 6b dl f s 8 | f T f x 4 fn 8 |
+L07: y r | 12 sp dl n 6 g2 | W01 | sp 4 x | f 8 W03 dl | 6b 4 f s 8 | a r5 o3 f sp | pi #
+L08: r sp s F r J | sp | f 6 a dl 6 8 n // fn 2 | cd | lq // tri dl r5 | f x # lq th 6 r
+L09: J dl x lq r | W09 | W07 | sp dl | J r r5 x n # | 12 | 9 4H T sp | 4 th .13. | W01? | th dl o3 n
+L10: r5 | W04 | dl divd? r sl n J | 27 4 6 J lq r x # f | rh 4H 8 # 4 fn s F r .W09. J |
+L11: W13 | 9 dl xo n r # 4H | ?{looped upright} | 2 | W04 | 4H sl 4 dl J s F r # | .2. | 9 dl box r 6 27 r5
+L12: dl | W05 | 9 f s 8 4H | pi r5 dl f s F 4H | J T rh | W05 | W02 H x | W06 | psi # dl 8 r
+L13: 6 9 f // fn f | .W06. | lq // tri r r5 | 4H | ?{barred m} | oo8 | rect | xs | f x r5 | lq 4H | J o3 n r5 | y dl
+L14: J r5 | f 4 s # + sl o3 rh dl | .2. | pi f rh 4 tri x r | W01 | W03 | // n 8 | sp | g2 4 r5 9
+L15: r | 27 T s // sp a r .2. | .W05. | 9 f s 8 dl | pi r5 r s F 4H | th // T lq th 8 | tri
+L16: 4 n g2 6 r # | lq dl 9 f s oc | y A< g2 n sp | W07 | y2 | 4 H + | 6b // r5 8 | s o3 T
+L17: # 4 tri r T sp dl W09 | W07 | W08 | 4 nu // sl 4 4 f g2 6 dl | 20 y r | divd? 4 y |
+L18: F dl T rh | T // x y th 8 | W02 | 9 4H | f | lq r | r 6 s 4H .E. | W03 | R | m T 8 |
+L19: 6b // r5 a | pi y dl xs 4H | W07 | m T a | W12? | o3 6 r r5 4 f 6 a | 2 | rh 4H a o3 T
+L20: J rh 6 r # | s dl lq 4 | W07 | 4 T xs f | W02 | W05 | 4 9 f s 8 dl | pi # dl f s F
+L21: r | W03 o3 f 8 | 6b // rh 8 | 9 dl box r 6 9 T 4H | 9 th | 27 r xo n dl r5 4H | 2
+L22: .8-. | .24. | 2 | sl T r5 4 n H dl | .W02. | lq .F. | 6 4 T o3 n 8 24 | 4 D + psi r5 r | m
+L23: a | s 4 th sp dl | W02 | W06 | 6 + th // 6 J | 24 | + th // n r5 | lq r 9 f a | y // tri
+L24: J | W04 | W03 | s dl r5 8 4 n fn | W02 | W12? 4H th v3 | 2 | 2 9 4 6 sp | f dl r5 9 n #
+L25: r 6 gam | s 4H | f // T # | W05 | 12 | sl dl n H r T # | sp | F o3 divd? dl sp | W01 | lq J | y2
+L26: dl T xs dl 6 8 | nu | W04 | sp dl 6 | W03 | + T xs fn 4 r r5 9 T | 12 | .th. J 9 f 3bar?
+L27: // T 27 A< th sp dl f // lq 9 4 8 f W07 .8-. T f 6 tri 8 4 n 6 r | .2. | pi
+NOTES: Especially uncertain: f/fn forms throughout; 8/gam; L03 and L19 W12-like signs; L10, L16, L17 and L25 dotted curved signs; L11 looped upright; L13 barred m; L26 final barred sign.

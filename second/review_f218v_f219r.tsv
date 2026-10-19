@@ -1,0 +1,200 @@
+# EN: Review on the images (20 Oct 2026) of the disagreements on ff. 218v and 219r between the first transcription and the first Codex run (second/v1/diff_after_relabel.tsv). Corrected only where the image confirmed it. "not changed" = the image agrees with the first reading, or the two shapes could not be told apart on the image.
+# 1回目と Codex 1回目（second/v1/diff_after_relabel.tsv）の f. 218v・f. 219r の食い違いを、画像で見直した結果（2026-10-20）。画像で確かめられたときだけ直した。「直さない」は、画像が1回目の読みと合うか、画像では2つの形を見分けられなかったもの。
+page	index	first	codex_v1	decision	new	note
+f218v	2	4H	4	直さない / not changed		
+f218v	11	x th	r 4	直した / corrected	r	c01：区切りの直前の記号は、行頭の r と同じ形
+f218v	22	g2	od	直さない / not changed		
+f218v	29	*	xs	直した / corrected	xs	c02：横線のある x（星形ではない）
+f218v	37	4H	#	直さない / not changed		
+f218v	43	Th	zk	直さない / not changed		
+f218v	45	<theta>	th	直さない / not changed		
+f218v	51	fn	y2	直さない / not changed		
+f218v	57	4H	#	直さない / not changed		
+f218v	81	phi par2	th 4H	直さない / not changed		
+f218v	95	th	4	直さない / not changed		
+f218v	98	x	xs	直さない / not changed		
+f218v	127	f curl	y2 dl	直さない / not changed		
+f218v	130	.9.	.g2.	直さない / not changed		
+f218v	168	2	J	直さない / not changed		
+f218v	176	2	J	直さない / not changed		
+f218v	180	+		直した / corrected	-	c07：H と r の間に記号がない
+f218v	188	dl	6	直さない / not changed		
+f218v	190	fn	y2	直さない / not changed		
+f218v	201	g2	od	直さない / not changed		
+f218v	207	zk	+	直さない / not changed		
+f218v	212	pl	A<	直さない / not changed		
+f218v	216	=que .3.	.?. 4	直さない / not changed		
+f218v	239	f	fi	直した / corrected	fi	c09：区切りの後の長い f に横線がない（直前の f には横線がある）
+f218v	241	g2	od	直さない / not changed		
+f218v	244	<xo?>	xo	直した / corrected	xo	c09：∝ の後の記号は χ に小さな o（χ°）
+f218v	249	4H	4	直さない / not changed		
+f218v	254	lq	.lq.	直さない / not changed		
+f218v	267	*	xs	直した / corrected	xs	c10：横線のある x（星形ではない）
+f218v	269	2	J	直さない / not changed		
+f218v	299	y		直さない / not changed		
+f218v	302	4H	4	直さない / not changed		
+f218v	312	fn	y2	直さない / not changed		
+f218v	325	9	.9.	直さない / not changed		
+f218v	333	fn 4H	y2 4	直さない / not changed		
+f218v	353	Id	.Id.	直さない / not changed		
+f218v	360	Th	zk	直さない / not changed		
+f218v	372	Ry	=que	直さない / not changed		
+f218v	387	4H	4	直さない / not changed		
+f218v	389		A<	直さない / not changed		
+f218v	393	=les pl	.th. A<	直さない / not changed		
+f218v	397	cd	=que	直さない / not changed		
+f218v	400	4H	4	直さない / not changed		
+f218v	412	4H	4	直さない / not changed		
+f218v	419	sr	f	直さない / not changed		
+f218v	435	4H	4	直さない / not changed		
+f218v	437	.3.	=que	直さない / not changed		
+f218v	448	phi =pour	th xo	直さない / not changed		
+f218v	454	4H	4	直さない / not changed		
+f218v	474	2	J	直さない / not changed		
+f218v	477	4H	4	直さない / not changed		
+f218v	491	x	r	直さない / not changed		
+f218v	502	4H Ry =pour	4 R xo	直さない / not changed		
+f218v	510	=pour	xo	直した / corrected	xo	c19：同上（χ°）
+f218v	523	4H	4	直さない / not changed		
+f218v	533	f		直した / corrected	fi	c20：ǂ の後の長い f に横線がない
+f218v	536	rh	A<	直さない / not changed		
+f218v	538	4H	#	直さない / not changed		
+f218v	544	f	y2	直さない / not changed		
+f218v	547	4H	4	直さない / not changed		
+f218v	553	u3 =pour	. =par J	直さない / not changed		
+f218v	557	4H	4	直さない / not changed		
+f218v	560	zk	psi	直さない / not changed		
+f218v	569	4H a	4 th	直さない / not changed		
+f218v	573	3bar	rx	直さない / not changed		
+f218v	575	4	.3.	直さない / not changed		
+f218v	584	en2 4H	sp 4	直さない / not changed		
+f218v	588	Qh	.Bf.	直さない / not changed		
+f218v	602		rx	直さない / not changed		
+f218v	603		A<	直さない / not changed		
+f218v	613	Ln	J	直さない / not changed		
+f218v	618	4H	4	直さない / not changed		
+f218v	623	f	fi	直さない / not changed		
+f218v	627	Qh	.Qh.	直さない / not changed		
+f218v	635	cd	=que	直さない / not changed		
+f218v	649	=les	Qh	直さない / not changed		
+f218v	653	pl	A<	直さない / not changed		
+f218v	663	2	J	直さない / not changed		
+f218v	670	sr	sp r5	直さない / not changed		
+f218v	673	2	J	直さない / not changed		
+f218v	678	2	J	直さない / not changed		
+f218v	700	rC	sp	直さない / not changed		
+f218v	705	pl 4H rC	A< 4 sp	直さない / not changed		
+f218v	720	sr	f r5	直さない / not changed		
+f218v	742	cd	=que	直さない / not changed		
+f218v	747	rC	sp	直さない / not changed		
+f218v	754	Ln	A<	直さない / not changed		
+f218v	757	rC	sp	直さない / not changed		
+f218v	759	fn	y2	直さない / not changed		
+f218v	762	4H Qh	4 .Qh.	直さない / not changed		
+f218v	765	xo =les .36.	.xo. .th. 3 6 .	直さない / not changed		
+f218v	771		r	直さない / not changed		
+f218v	774	2	J	直さない / not changed		
+f218v	780	4H	4	直さない / not changed		
+f218v	788	4H	4	直さない / not changed		
+f218v	791	cd	=que	直さない / not changed		
+f218v	808	2	J	直さない / not changed		
+f218v	810	=pour	.xo.	直した / corrected	xo	c30：χ の右下に小さな o（χ°）。値は鍵の xo（q）になるが、文脈では pour（OPEN.md）
+f218v	816	fn	y2	直さない / not changed		
+f218v	820	cd	=que	直さない / not changed		
+f218v	825	lq	y	直した / corrected	y	c31：ꝏ の後の記号は下に鉤のある y で、横線のある q ではない（値はどちらも l）
+f218v	831	4H	4	直さない / not changed		
+f218v	839		.	直さない / not changed		
+f218v	847	4H	4	直さない / not changed		
+f218v	860	fn 4H =pour	y2 4 xo	直さない / not changed		
+f218v	873	4H	4	直さない / not changed		
+f218v	886	rC Bf co	sp 6b dl	直さない / not changed		
+f218v	895	x	r	直さない / not changed		
+f218v	899	gam	=que	直さない / not changed		
+f218v	906	Th	zk	直さない / not changed		
+f218v	908	=les	Qh	直さない / not changed		
+f218v	912	#	H	直さない / not changed		
+f218v	926	.yy.	.W.	直さない / not changed		
+f219r	5	par2 8	=par dl	直さない / not changed		
+f219r	18	=les .xo.	# .20.	直さない / not changed		
+f219r	24	=qui	=il	直さない / not changed		
+f219r	29	fn	y2	直さない / not changed		
+f219r	33	pl	A<	直さない / not changed		
+f219r	36	J	9	直さない / not changed		
+f219r	38	J fi x	r	直さない / not changed		
+f219r	47	8	dl	直さない / not changed		
+f219r	53	8	dl	直さない / not changed		
+f219r	66	=qui fn	=il y2	直さない / not changed		
+f219r	72	8	dl	直さない / not changed		
+f219r	78	J	9	直さない / not changed		
+f219r	82	8	dl	直さない / not changed		
+f219r	85	J	r5	直さない / not changed		
+f219r	87	box	=que	直さない / not changed		
+f219r	102	fn	y2	直さない / not changed		
+f219r	112	H	4H	直さない / not changed		
+f219r	118	8 par2 2	dl =par 4	直さない / not changed		
+f219r	128	g2	cd	直さない / not changed		
+f219r	134	2	4	直さない / not changed		
+f219r	141	8		直さない / not changed		
+f219r	143	=qui	dl =il	直さない / not changed		
+f219r	150	8 =bien	dl .W08 .	直さない / not changed		
+f219r	154	cd	lq	直さない / not changed		
+f219r	181	8	dl	直さない / not changed		
+f219r	185	=pour	=que	直した / corrected	xo	c07：χ の右下に小さな o（χ°）。値は鍵の xo（q）になるが、文脈では pour（OPEN.md）
+f219r	189	8	dl	直さない / not changed		
+f219r	195	=la	.co.	直さない / not changed		
+f219r	199	Lb	4	直さない / not changed		
+f219r	201	en2	9 rC	直さない / not changed		
+f219r	209	cd	lq	直さない / not changed		
+f219r	211	=qui	=il	直さない / not changed		
+f219r	217	2	4	直さない / not changed		
+f219r	221	8	dl	直さない / not changed		
+f219r	228	8	dl	直さない / not changed		
+f219r	231	pl	A<	直さない / not changed		
+f219r	265	J	r5	直さない / not changed		
+f219r	271	J =il	9 =est	直さない / not changed		
+f219r	275	Bf	6	直さない / not changed		
+f219r	279	8	dl	直さない / not changed		
+f219r	282	J pl	r5 A<	直さない / not changed		
+f219r	296		r5 dl a r 6 n # o3	直さない / not changed		
+f219r	297	J	r5	直さない / not changed		
+f219r	304	.K.	.r.	直さない / not changed		
+f219r	306	J	r5	直さない / not changed		
+f219r	317	Id	=que	直さない / not changed		
+f219r	320	8 cd	dl lq	直さない / not changed		
+f219r	327	f 8	fi dl	直さない / not changed		
+f219r	332		r	直した / corrected	r	c13：x と小さな ʃ（r5）の間に r がある（1回目は抜けていた）
+f219r	333	8 rh =qui 2	dl R =il 4	直さない / not changed		
+f219r	346	en2 en2	rC rC	直さない / not changed		
+f219r	358	oc	a	直さない / not changed		
+f219r	361	g2 .K. phi	cd r th	直さない / not changed		
+f219r	366	=la	en2	直さない / not changed		
+f219r	374	8	dl	直さない / not changed		
+f219r	381	f	fi	直さない / not changed		
+f219r	385		r5	直さない / not changed		
+f219r	387	2	4	直さない / not changed		
+f219r	392	=il	=est	直さない / not changed		
+f219r	397	J	r5	直さない / not changed		
+f219r	399	f	fi	直さない / not changed		
+f219r	407		dl	直さない / not changed		
+f219r	408	r J 2	r5 4	直さない / not changed		
+f219r	412	x	xs	直した / corrected	xs	c16：横線のある x
+f219r	415	fn	y2	直さない / not changed		
+f219r	417	J	r5	直さない / not changed		
+f219r	425	Th	rh	直さない / not changed		
+f219r	428	=les 2	=est 4	直さない / not changed		
+f219r	432	4H	#	直さない / not changed		c16：縦線2本の記号。4H と # は、ほかの箇所と同じく画像では見分けられないので直さない
+f219r	437	en2	rC	直さない / not changed		
+f219r	439	fn 8	y2 dl	直さない / not changed		
+f219r	444	8	dl	直さない / not changed		
+f219r	447	Ln u1 u2 r	.L1. dl cd zk	直さない / not changed		
+f219r	452	fn	y2	直さない / not changed		
+f219r	464	2	4	直さない / not changed		
+f219r	468	r5 s zk	R	直した / corrected	zk?	c18：「# s」と「| 4」の間の記号は1つだけ（ꝶ 形。zk か R かは決めきれない）。1回目の r5・s と区切りは画像にない
+f219r	475	fn	y2	直さない / not changed		
+f219r	482	.3.	4	直さない / not changed		
+f219r	484	dl	r	直した / corrected	r	c18：ꝁ の後の記号は r 形（値はどちらも e）
+f219r	489	Re 2-	=que =que	直さない / not changed		
+f218v	449	=pour?	(v1 の一覧外。v1・v2 の読みと並べて見た / outside the v1 list; seen alongside the v1 and v2 readings)	直した / corrected	xo	c17：χ の右下に小さな o（χ°）。値は鍵の xo（q）になるが、文脈では pour（OPEN.md）
+f218v	504	=pour?	(v1 の一覧外。v1・v2 の読みと並べて見た / outside the v1 list; seen alongside the v1 and v2 readings)	直した / corrected	xo	c19：同上（χ°）
+f218v	570	a	(v1 の一覧外。v1・v2 の読みと並べて見た / outside the v1 list; seen alongside the v1 and v2 readings)	直した / corrected	th	c22：4H の後の記号は横線の通った o（θ 形）で、a ではない
+f218v	862	=pour	(v1 の一覧外。v1・v2 の読みと並べて見た / outside the v1 list; seen alongside the v1 and v2 readings)	直した / corrected	xo	c32：χ の右下に小さな o（χ°）。値は鍵の xo（q）になるが、文脈では pour（OPEN.md）

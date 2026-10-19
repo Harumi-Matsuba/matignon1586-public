@@ -13,8 +13,8 @@
 | page | signs | valued by Tomokiyo's table alone | valued with inferred values |
 |---|---|---|---|
 | f. 218r | 713 | 657 (92.1%) | 704 (98.7%) |
-| f. 218v | 927 | 838 (90.4%) | 922 (99.5%) |
-| f. 219r | 499 | 448 (89.8%) | 486 (97.4%) |
+| f. 218v | 926 | 836 (90.3%) | 921 (99.5%) |
+| f. 219r | 498 | 446 (89.6%) | 485 (97.4%) |
 
 ### Shuffled-key controls (1,000 each)
 The same transcription was decoded with keys in which the values of the letter signs were permuted, and its "Frenchness" compared with that of the real key. Frenchness is the mean log-likelihood of letter trigrams (built from the top 50,000 French words of `wordfreq`, with j→i and v→u). Code signs are left out of the score.
@@ -23,10 +23,10 @@ The same transcription was decoded with keys in which the values of the letter s
 |---|---|---|---|---|
 | f. 218r | with inferred values | −2.352 | −5.665 / −5.072 / −4.139 | 0 / 1000 |
 | f. 218r | table signs only | −2.363 | −5.580 / −4.879 / −4.180 | 0 / 1000 |
-| f. 218v | with inferred values | −2.590 | −5.626 / −5.045 / −4.492 | 0 / 1000 |
-| f. 218v | table signs only | −2.620 | −5.721 / −4.871 / −4.124 | 0 / 1000 |
-| f. 219r | with inferred values | −2.442 | −5.712 / −5.068 / −4.308 | 0 / 1000 |
-| f. 219r | table signs only | −2.401 | −5.589 / −4.927 / −4.095 | 0 / 1000 |
+| f. 218v | with inferred values | −2.597 | −5.608 / −5.041 / −4.485 | 0 / 1000 |
+| f. 218v | table signs only | −2.630 | −5.685 / −4.851 / −4.121 | 0 / 1000 |
+| f. 219r | with inferred values | −2.431 | −5.689 / −5.065 / −4.300 | 0 / 1000 |
+| f. 219r | table signs only | −2.389 | −5.604 / −4.911 / −4.145 | 0 / 1000 |
 
 This shows only that the table's values give text far closer to French than chance assignments do. It does not show that any single sign is read right.
 
@@ -60,27 +60,50 @@ ff. 218v and 219r were transcribed after seeing Burford's key. The "after" value
 - Following this, the sign written as il in f. 218r lines 9–10 was corrected to tt (les): « pour veoir les ennemis », « de les empescher ». The key was not tuned on the six calibration lines.
 - Meaning: the reading, transcription and key together, may be wrong in about one letter in four. In this letter, values of ambiguous signs were chosen by context, so errors are expected to be fewer than in the six calibration lines (read without context). That has not been checked.
 
-## Second transcription (independent reading, 20 Oct 2026)
-- Reader: OpenAI's Codex CLI (codex-cli 0.163.0-alpha.10.2, bundled with the ChatGPT app; default model, whose name does not appear in the run log).
-- Input: only the line images of the three pages (each line cut into a left and a right half; f. 218r 27 lines, f. 218v 34, f. 219r 19; cut by `second/crop_lines.py` from the same deskewed images as the first pass) and the prompt (`second/PROMPT.md`). The prompt gives only sign names and shape descriptions — no values, no first transcription, no key, no decoded text. Names that reveal a value (=que, =pour, par2 …) were replaced by neutral names such as W01–W18 (mapping in `second/names_map.tsv`).
-- Runs: one run per page, each started separately from an empty folder with `codex exec --ephemeral -s read-only`. The run logs (`second/codex_events_*.jsonl`) contain a single reply each, with no commands and no file reads. The output is `second/transcription2_*.txt`, unedited.
-- Comparison with the first pass (`src/compare2.py`: edit distance between the sign sequences of each page, divided by the number of signs in the first pass; dividers `|` left out):
+## Second transcription (Codex, 20 Oct 2026)
+To compare with the first transcription (Claude), OpenAI's Codex CLI (codex-cli 0.163.0-alpha.10.2, bundled with the ChatGPT app; default model, whose name does not appear in the run log) transcribed the line images into sign names without seeing the first transcription, the key or any values. It was run four times. In every run, each page was a separate `codex exec --ephemeral -s read-only` call with the prompt on standard input. Names that reveal a value (=que, =pour, par2 …) were replaced by neutral names such as W01–W18 (`second/names_map.tsv`). The line images were cut by `second/crop_lines.py` from the same deskewed images as the first pass, each line into a left and a right half (f. 218r 27 lines, f. 218v 34, f. 219r 19).
 
-| page | signs (1st / 2nd) | sign-name agreement | value agreement | sign-name agreement after relabelling |
+| run | folder | input | run log | status |
 |---|---|---|---|---|
-| f. 218r | 713 / 710 | 76.7% | 77.4% | 84.2% |
-| f. 218v | 927 / 934 | 63.2% | 65.6% | 85.0% |
-| f. 219r | 499 / 507 | 61.5% | 63.9% | 76.8% |
-| all | 2,139 / 2,151 | 67.3% | 69.1% | 82.8% |
+| v1 | `second/v1/` | prompt (sign names and shape descriptions only) | no shell commands; but see "Image-passing fault" below | used in the review, so a cross-check record (not called independent) |
+| v2 | `second/v2/` | prompt + sign specimen sheet (below) | ran `ls ../img` and `rg --files ../img` (file names of the line images) | used in the review, so a cross-check record |
+| v3 | `second/v3/` | as v2; after the review, in a fresh context | on all three pages, ran `ls` of its input folder (which held only the line images, the specimen sheet and the prompt; the working-folder path in the log is replaced by `<scratch>`) | independent second transcription |
+| v4 | `second/v4/` | v3's prompt plus "do not run commands or open files"; after the review, in a fresh context | no commands and no file reads (one reply per page) | independent second transcription |
 
-- Most differences are signs of the same shape to which the second reader consistently gave another name. Taking, for each name of the second pass, the first-pass name it was most often aligned with (5 times or more) gives 13 pairs: f→fi, fn→f, fi→dl, nu→dl, 2→4, g2→J, phi→th, pl→zk, Ln→A<, .2.→.3., sl→=la, co→en2, ?→=que. The written shape descriptions apparently did not tie the names to the shapes. On the images of the left half of f. 218v line 6 and the right half of line 5 we checked that the second reader calls the δ-shape (dl), the 4 with a slanting stroke and the sign after ꝗ (J) fi, 2 and g2 respectively. The other pairs were not checked on the images. The last column applies this relabelling to the second pass; because the relabelling is fitted to the same data, it overstates the agreement.
-- Of the disagreements left after relabelling (`second/diff_after_relabel.tsv`, 283 places), the main ones that change a value are: 4H (e) read as 4 (a), 18 places; fn read as y2, 15; 8 (t) read as dl (e), 11; 2 (m) read as J, 9. The first pass chose between similar signs by context in places (see Limits). These have not yet been rechecked on the images ([OPEN.en.md](OPEN.en.md)).
-- Decoding the second transcription with the same key and running the shuffled-key control (1,000 each): the real key scores −3.095 (f. 218r), −3.910 (f. 218v), −3.480 (f. 219r), above the best shuffled key (−3.952, −4.275, −4.360); shuffled ≥ real 0/1000 on all three pages. The scores are lower than for the first pass (−2.35 to −2.59) because of the naming differences and misreadings above.
-- The key and the reading were not changed after the second transcription (0 signs corrected; the disagreements have not yet been rechecked on the images, so there is no count yet of places checked and left unchanged).
+- **Sign specimen sheet** (v2–v4): the shapes of 65 signs cut one by one from the image of Tomokiyo's Cipher-2 table (see "It rests on" in the README), labelled with our sign names and rearranged. No value cells, and the order is unrelated to the table's columns (values). Signs not in the table are described in words only. The sheet image is not in this repository (no images in the repository). Prompts: `second/v3/PROMPT.md`, `second/v4/PROMPT.md`.
+- **Image-passing fault**: in v1–v3 the `-i` arguments meant to pass the line images reached Codex as one long string (the shell, zsh, did not split it), which Codex saw as "file name too long". This came to light in v4, where Codex, told not to open files, replied that it could not see the images. In v1–v3 Codex apparently opened the images itself from the paths in the error. Opening images is not recorded in the run log, and Codex's own log (~/.codex/logs_2.sqlite) has no rows for these runs, so what it opened cannot be checked. No answer (first transcription, key) was within reach of what it listed (v2's `../img` held only line images; v3's input folder only line images, the specimen sheet and the prompt). For v4 the arguments were passed one image at a time; that the images of all three pages arrived (55, 69 and 39 including the sheet) is shown by the replies transcribing every line.
+- The previous version of this METHOD (commits 044cf00–8e3a50b of 20 Oct 2026) said of v1 that "only the line images and the prompt" were given and that there were "no commands and no file reads". Because of the fault above, the first statement was not accurate.
+
+### Review on the images (ff. 218v and 219r, 20 Oct 2026)
+With v1, the value agreement on ff. 218v and 219r fell below 70% (the level required to present a partial reading; see "Assessment" below). The disagreements with v1 (193 places after relabelling; `second/v1/diff_after_relabel.tsv` refers to the transcription before the review), plus 4 places outside that list noticed alongside the v1 and v2 readings — 197 in all — were rechecked one by one on the line images, with the v2 readings alongside. A sign was corrected only where the image confirmed it.
+
+- **Corrected: 19 places** (f. 218v 14, f. 219r 5). Main ones: x→r before a divider (f. 218v line 1); a barred x from * or x to xs (3); a long f without a bar from f to fi (2); a θ-shape from a to th (f. 218v line 22); the χ with a small o from =pour to xo (6); a missing r added in f. 219r line 13; in f. 219r line 18, where the image has a single sign, "r5 | s zk" to "zk?".
+- **Not changed: 178 places**, where the image agrees with the first reading or the two shapes could not be told apart (4H, # and 4; fn and y2; 2 and J …). The change 4H?→# in f. 219r line 16 was first made and then undone, to match the other 4H/# places that were not told apart.
+- List (place, first, v1, decision, reason): `second/review_f218v_f219r.tsv`. f. 218r was not reviewed.
+- The six places changed to xo (χ°) take the value q in the key. In context each fits pour, and the same shape stands at a « pour » in the calibration lines ([OPEN.en.md](OPEN.en.md)). The reading ([READING.en.md](READING.en.md)) keeps pour.
+
+### Comparison with the first pass (`src/compare2.py`)
+Edit distance between the sign sequences of each page, divided by the number of signs in the first pass (dividers `|` left out). "Value" counts aliases with the same value in the key as equal. "Relabelled" renames each second-pass name to the first-pass name it was most often aligned with (fitted to the same data, so it runs high; not used for the assessment). Figures are against the current transcription, after the review.
+
+| run | f. 218r name / value | f. 218v name / value | f. 219r name / value |
+|---|---|---|---|
+| v1 (record) | 76.7% / 77.4% | 64.3% / 66.3% | 62.4% / 64.7% |
+| v2 (record) | 74.3% / 75.5% | 83.4% / 85.9% | 81.9% / 84.7% |
+| v3 (independent) | 82.6% / 83.7% | 82.9% / 85.7% | 77.7% / 81.7% |
+| v4 (independent) | 68.6% / 72.1% | 79.4% / 82.5% | 70.9% / 73.9% |
+
+- Against the transcription before the review, v1's value agreement was 77.4% (f. 218r), 65.6% (f. 218v), 63.9% (f. 219r) — the figures in the previous version.
+- Disagreements with v4 left after relabelling: `second/v4/diff_after_relabel.tsv` (not rechecked on the images).
+
+### Assessment
+- Figure used: for each page, the lower value agreement of the two independent second transcriptions, v3 and v4 (`python3 src/compare2.py --judge`): f. 218r 72.1% (v4), f. 218v 82.5% (v4), f. 219r 73.9% (v4).
+- All three pages are at 70% or above, which meets the level required to present a partial reading. The level required to call it a full reading (85% or above) is not met on any page.
+- Decoding v4 with the same key and running the shuffled-key control (1,000 each): the real key scores −3.792 (f. 218r), −3.307 (f. 218v), −3.427 (f. 219r), above the best shuffled key (−4.084, −4.374, −4.347); shuffled ≥ real 0/1000 on all three pages.
 
 ## Use of AI
 - Transcription of the images, inferred values, decoding, scripts and documents were done by Anthropic's Claude (Claude Code, model Claude Opus 5.5). A person (the owner of this repository) chose the target, saved the images and decided on publication.
 - In the first pass each line was transcribed into sign names once, without voting. A second transcription by another AI (Codex) is described in the section above.
+- The review of the disagreements on ff. 218v and 219r against the images, and the corrections, were also done by Claude (Claude Opus 5.5).
 - **No human has checked the transcription.** Both transcriptions were made by AI; agreement between AIs is not a substitute for human checking.
 - For ff. 218v and 219r, the plain text was first read from the images, and only then were the lines transcribed into sign names. The transcription may have been pulled toward that first reading.
 

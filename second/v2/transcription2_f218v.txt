@@ -1,0 +1,35 @@
+L01: A< xs 4H rC | W04 | y2 | sl | r T rC 8 | r th | W08 | 9 + T 4 6 a divd f g2 r | cd .10.
+L02: 6 r T xs r | m 4 n s a | r5 4H a n # dl rh | Th dl | th | f dl T 6 r | fn o3
+L03: pi y r nd 4H | W01 | W03 o3 n a | 6b o3 r5 8 | 9 n rC psi // J N | 9 y2 | 4 H dl # |
+L04: 2? | phi | W06 | 6 4 T // 6 rC | F n dl r5 | W07 | + th n o3 xs # 9 F th y2 | 6b 4 n s 8 |
+L05: a n r5 dl # | W02 | th | f | T // lq N J | .2. | s 4 6 // fn | nu T | W17 | 4 T // 6 rC |
+L06: th dl x | W01 lq J | m 4 n rC o3 f r 6 8 | a r5 4 th + f H r r5 | L1 y2 4
+L07: 6 * a W03 n L1? dl W01 lq W03 // n a L1? dl n H r T # .2. tri + f 6 tri
+L08: fn dl r5 lq r 9 n s 8 | y o3 g2 f f | W07 | .2. | W05? f n dl 9 + | L1? f r dy .W02. 2?
+L09: F psi f + r5 9 dl r5 | 27 + T 4 6 8 4 n tri dl s r f | f 4H g2 r sl W15 r5
+L10: 4 W03 # 4H T 6 .24. W10 lq o3 6 tri | .20. | W03 | sl | rC dl rh 4 + T xs f | L1? o3
+L11: n 6 rC | f 6 s // 40 // 9 r W07 psi dl 4H f H r T 3bar | 4 y2 + 6 8 | s W03 dl |
+L12: Qh pi 4H rC // n 6 tri | 9 W03 # T fn .24. J // x lq + tri N | 10 | 6 r | W11 9 n
+L13: r5 4 y2 .15. .2. | W05? | fn 4H s r xs f a r | sl | W05? W02 H r | 10 y 4 y2 a # // Id
+L14: N xo T 4 cd .2. | Th | dl rC | s F // f dl J | .25. f 4 r? | f s dl x | W02 | s dl lq 4
+L15: W11 | 4 W03 r | r5 4H pl ^L1 6 8 dl | W13 .W12. | fi? # dl zk r 9 4H 6 8 r rC 27 dl psi r
+L16: rC s F 4H J W07 rC | W13 | lq r f # .2. J + H y2 | W01 | 4 | W03 dl | r 3bar pl r5 dl
+L17: xs 4H W09 .2. pl r J s F dl | T dl # f | phi W15 s W03 dl box 4H s 8 | 10 | 9 n
+L18: r5 4 y2 J dl T y r W09 | W02 | cd pl r5 o3 L1? psi 8 4H .E. | dl H r | 6 W03 | J dl
+L19: s // th # T r W07 | W01 lq 6 W11 psi lq 4 f f 4H | fi? | W15 x dl o3 n r5 W15 |
+L20: y + 9 T dl 6 f rh | W02 | 10 | pl rh 4H th r o3 y2 W02 | y o3 6 fn fi? 8 n L1 dl
+L21: 4H 4 .31. | tri rh 4 fn 9 | f 4H rh T n s dl | W06 | J o3 40 4H f | 4 zk #
+L22: 6 9 + 6 8 9 | F 4H th rh r ^4 L1 4 T y 8 # r | W02 | H r | rC 4H r5 4 .K.? # dl
+L23: J o3 lq T 8 n // 6 .2. | s dl 4? W02? ^Id W11 T o3 th y 9 r5 dl f | r L1 psi lq o3 y2 4H # |
+L24: y + 9 f s a dl .Qh. | L1 | x | W13 8 n r5 | .2. | zk dl | f n dl tri r | J th y2 T 4
+L25: 6 8 | W12 | psi r5 o3 fi? // J | n a f // 6 f | W02 | L1 // 6 9 n s 8 | rC ^r5 | 9 T | L1 4 y2 6
+L26: dl | L1 4 | 9 n s 8 | W11 | sl | + T // n r5 | m + f s a | dl f .17. | W13 | rC dl J | 9 r
+L27: fi? 4H rC s F dl f | W02 | W13 | lq r 9 f s 8 | f ^r5 .2. | J 4 n H y2 | lq T 6 dl .12. |
+L28: + | tri r5 4 6 .12. | 9 n box f zk th y a r rC | W02 | .10. | r5 dl s o3 L1 // n rC | r fn s W03
+L29: 4H .Qh. | W03 W15 | .W12. | 3 6 | W01 | lq J | r r5 4 | 13 | L1 + y | 4 y2 f 4H | .2. | # r s o3
+L30: Id rh 4H # | sl | zk W03 r | psi r5 o3 T n 6 s dl | J T box f f 4 L1 .E. | W15 | y2 | m
+L31: // T # fn n r5 | W07 | zk rh // y2 | W01 y | J dl | r5 + | 6 4H s r xs L1 f # r | 9 sl | m
+L32: L1 n # r th 4H 6 f rh | .2. | W05? pi r5 r a 4 n tri fn 4H W15 | 4 psi + n 6 9 r5 dl
+L33: W05? | rh 4H | s o3 y 8 dl | xo T 4 6 a | + | T rC | 6b nu # s r f | dl H r J | 9 n
+L34: W08? f 6 T dl 6 8 | Th f | W12 | f o3 T # f | W07 T dl // y2 | W02 | s r | J dl r5 4 | .N.?
+NOTES: Long-f variants, L1 versus hooked loop signs, and W05-like signs are uncertain throughout. L15 and L22–23 contain small raised or crowded signs; L23 has apparent overwriting. Left-edge signs in L32–34 are partly cropped.

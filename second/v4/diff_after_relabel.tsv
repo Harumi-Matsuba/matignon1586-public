@@ -1,0 +1,284 @@
+# EN: Disagreements with second/v4 left after relabelling (python3 src/compare2.py --ver v4 --diff). page, index of the sign in the 1st transcription (from 0, dividers not counted), 1st, 2nd (relabelled). Not yet reviewed on the images.
+# second/v4 との、名前のずれを補正した後に残る食い違い。ページ、1回目の何番目の記号か（0から、区切りの | は数えない）、1回目、2回目（補正後）。画像ではまだ見直していない。
+page	index	first	second
+f218r	0	oo8	=qui
+f218r	3	Ry	R
+f218r	13	pl	Id
+f218r	20	x	r
+f218r	27	cd	th
+f218r	30	rp	4
+f218r	32	.20. fn	=qui f
+f218r	43	Th	f
+f218r	47	.3.	4
+f218r	63	pl	fi
+f218r	66	2	9
+f218r	81	X2	6
+f218r	90	2	9
+f218r	102	fn	f
+f218r	120	f	fi
+f218r	125	fn 8	f dl
+f218r	134	g2	D
+f218r	138	x 	r
+f218r	162	=la	en2
+f218r	171	fn .3.	f 4
+f218r	183	4	th
+f218r	191	.3.	=ment
+f218r	196	x fi	r r5
+f218r	209	=pour	=plus
+f218r	215	=les	=il
+f218r	217	nd	?
+f218r	219	2	9
+f218r	222	27	4
+f218r	231	rh	6b
+f218r	236	fn	f
+f218r	240	=ment	.E.
+f218r	242	+	
+f218r	246	rx	xo
+f218r	251	<beta> .3. =les	? 4 =il
+f218r	255	2 lq	9 zk
+f218r	270		r5
+f218r	277	4H	
+f218r	279	r5	
+f218r	281	f	fi
+f218r	287	J =qui	6b =la
+f218r	293	rp	zk
+f218r	302	fn	
+f218r	304		fi
+f218r	310	<f+> <m_> =qui <oo>	4H m oo8 =il
+f218r	327	.r5. f	r5 fi
+f218r	333	2	9
+f218r	335	rh	6b
+f218r	340	rh	6b
+f218r	351	cd	D
+f218r	356	dy	27
+f218r	373	f	
+f218r	386	g2	D
+f218r	395	oc	x
+f218r	397	od g2	D D
+f218r	426	2 rp	9 zk
+f218r	430	g2	D
+f218r	433	2 od	=qui
+f218r	437	=la	?
+f218r	443	rh	6b
+f218r	453	sl	fi
+f218r	455	x	r
+f218r	460	=ment =il Ry	.E. =est R
+f218r	473	*	xs
+f218r	479	cd	th
+f218r	482	8	r
+f218r	488	.3. rh	4 6b
+f218r	494	rh r5	f 6b
+f218r	506	* f	xs fi
+f218r	516	pi	T
+f218r	529	rh	6b
+f218r	536		r T 4H
+f218r	537	T # 9	th
+f218r	541	27	
+f218r	543	rx	xo
+f218r	547	#	4H 4 .8-. 4
+f218r	549	.8-. .24. .3. 2	9
+f218r	561	<Fdot>	F
+f218r	568	.24.	4
+f218r	576	od	a
+f218r	579	+	th
+f218r	583	=par	zk
+f218r	590	.24.	4
+f218r	610	r5	8
+f218r	613	fn	f
+f218r	615	cd #	
+f218r	618	v3 .3. .3.	4H th ? 4 4
+f218r	625	rp	zk
+f218r	639	#	4H
+f218r	642	2	9
+f218r	649	rp	sp
+f218r	652	nd	?
+f218r	654	rp	sp
+f218r	665	x	nu
+f218r	674	y2 rp	f zk
+f218r	681	<dot-th-dot> <dot-J-dot>	th J
+f218r	689	<b6>	D
+f218r	693	J	f
+f218r	699	J	f
+f218v	0	r	A<
+f218v	12	th	#
+f218v	20	+	y2
+f218v	22	g2	8
+f218v	43	Th	Qh
+f218v	45	<theta>	th
+f218v	51	fn	f
+f218v	57	4H	#
+f218v	80	.3.	4
+f218v	82	par2	zk
+f218v	95	th	4
+f218v	110	n	r
+f218v	115	.8-. f	th fi
+f218v	122	.3.	4
+f218v	128	curl	nu
+f218v	130	.9.	2
+f218v	136	th	4
+f218v	165	oc	x
+f218v	183	.3.	4
+f218v	187	dl	6
+f218v	189	fn	f
+f218v	200	g2	8
+f218v	202	f	fi
+f218v	204	.3.	4
+f218v	206	zk	4
+f218v	211	pl	zk
+f218v	216	.3.	4
+f218v	237	f	
+f218v	239	# g2	fi 4H 8
+f218v	251	.24.	4 4
+f218v	257	.20.	4 a
+f218v	284	#	4H
+f218v	298	y	
+f218v	311	fn .24.	f 4 4
+f218v	330	.3.	4
+f218v	332	fn	f
+f218v	338	oc	x
+f218v	358	.3. Th	4 Qh
+f218v	365	f	fi
+f218v	368	.25.	4 r5
+f218v	371	Ry	X2
+f218v	388		a
+f218v	393	pl	zk
+f218v	396	cd	2
+f218v	414	rC	sp
+f218v	418	sr .3.	f 4
+f218v	436	.3.	4
+f218v	446	f	fi
+f218v	490	x	r
+f218v	500	f	fi
+f218v	502	Ry	zk
+f218v	531	y2 fi	f
+f218v	534	n	
+f218v	550	r5	s
+f218v	552	u3 =pour	=par J
+f218v	559	zk	psi
+f218v	566	9	2
+f218v	572	3bar	4
+f218v	583	en2	sp
+f218v	587	Qh	Bf
+f218v	598	.3.	4
+f218v	601		4
+f218v	602		Id
+f218v	610	f	fi
+f218v	612	Ln	2
+f218v	622	f	fi
+f218v	633	.3. cd	4 2
+f218v	636	f	fi
+f218v	652	pl	zk
+f218v	660	f	fi
+f218v	669	sr	sp r5
+f218v	696	f	fi
+f218v	699	rC	sp
+f218v	704	pl	zk
+f218v	706	rC	sp
+f218v	719	sr .3.	f r5 4
+f218v	731	+	H
+f218v	741	cd	2
+f218v	746	rC	sp
+f218v	753	Ln	A<
+f218v	756	rC	sp
+f218v	758	fn	f
+f218v	766	.36.	3 6
+f218v	770		r
+f218v	780	.3.	4
+f218v	790	cd	2
+f218v	805	f	fi
+f218v	815	fn	f
+f218v	819	cd	2
+f218v	850	.3.	4
+f218v	859	fn	f
+f218v	870	=la	2
+f218v	882	oc	x
+f218v	885	rC Bf co	sp 6b nu
+f218v	891	f	fi
+f218v	894	x	r
+f218v	898	gam	=bien
+f218v	905	Th	Qh
+f218v	912	f	fi
+f218v	925	.yy.	?
+f219r	2	rC	sp
+f219r	5	par2 8	=par dl
+f219r	9	.3.	8
+f219r	18	=les .xo. rC .3.	# xo =la 8
+f219r	29	fn	y2
+f219r	33	pl	A<
+f219r	36	J	9
+f219r	38	J fi x	r
+f219r	47	8	dl
+f219r	50	rC	sp
+f219r	53	8	dl
+f219r	64	.3.	8
+f219r	67	fn	y2
+f219r	72	8	dl
+f219r	78	J	9
+f219r	82	8	dl
+f219r	102	fn	y2
+f219r	107	dl	N
+f219r	112	H y2	4H psi
+f219r	118		dl =par
+f219r	119	par2 2	
+f219r	127	.3. g2	8 8
+f219r	134	2	8
+f219r	137	.3. rC	8 sp
+f219r	141	8	dl
+f219r	150	8	dl
+f219r	152	6	.6.
+f219r	154	cd	th
+f219r	156	xs	*
+f219r	161	.3.	8
+f219r	168	rC	sp
+f219r	178	=les	.#.
+f219r	181	8	dl
+f219r	185	xo	.K.
+f219r	189	8	dl
+f219r	199	Lb	8
+f219r	201	en2	9 sp
+f219r	209	cd	th
+f219r	217	2	8
+f219r	221	8	dl
+f219r	228	8	dl
+f219r	231	pl	A<
+f219r	246	rC	sp
+f219r	256	=ment	.E.
+f219r	271	J	9
+f219r	275	Bf	6
+f219r	279	8	dl
+f219r	283	pl	A<
+f219r	296	=les	.8-.
+f219r	303	rC	sp
+f219r	311	.E.	=ment
+f219r	313	rC	sp
+f219r	320	8 cd	dl th
+f219r	327	f 8	fi dl
+f219r	334		dl Ry =qui
+f219r	335	rh =qui 2	
+f219r	347	en2 en2	sp sp
+f219r	359	oc	a
+f219r	362	g2 .K.	8 A<
+f219r	370	rC	sp
+f219r	375	8	dl
+f219r	381	27 f	4 fi
+f219r	385	rC	sp r5
+f219r	388	2	8
+f219r	398	J	r5
+f219r	400	f	fi
+f219r	408		3bar
+f219r	409	r J 2	r5 8
+f219r	416	fn	y2
+f219r	426	Th	rh
+f219r	429	=les 2	40 8
+f219r	433	4H	#
+f219r	438	en2	sp
+f219r	440	fn 8	y2 dl
+f219r	445	8	dl
+f219r	448	Ln u1 u2 r	A< dl 8 zk
+f219r	453	fn	y2
+f219r	459	y2	psi
+f219r	465	2	8
+f219r	469	zk	Ry
+f219r	474	fn	y2
+f219r	481	.3.	8
+f219r	488	Re 2- .3.	zk box 8
