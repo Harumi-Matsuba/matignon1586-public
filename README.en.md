@@ -1,11 +1,11 @@
-# Matignon to the King, camp before Monségur, May 1586: a first reading of the cipher
+# Matignon to the King, camp before Monségur, May 1586: a provisional reading of the cipher
 
 [日本語 README](README.md)
 
 | | |
 |---|---|
 | Status | **Partial reading** (most of the three pages reads as French, but 28 signs have no value and some passages are unread) |
-| Relation to prior work | No earlier reading was found (Tomokiyo: undeciphered; Bourdeau's ledger: never attempted). The table is Tomokiyo's reconstruction; some inferred values agree with Burford's key (see "What is new here" below) |
+| Relation to prior work | No earlier reading of this letter was found in the places searched on 19–20 Oct 2026 ([SOURCES.en.md](SOURCES.en.md)) (Tomokiyo: undeciphered; Bourdeau's ledger: never attempted). No independent prior-work check by a separate session has been done yet, so this is not claimed as a first. The table is Tomokiyo's reconstruction; some inferred values agree with Burford's key (see "What this reading adds" below) |
 | Human checking | **No human has checked the transcription.** Both transcriptions are by AI (first Claude, second Codex). Agreement between AIs is not a substitute for human checking |
 | Figures | Control: shuffled keys scoring at or above the real key, 0 of 1,000 on each page / Calibration: 74.8% letter agreement on six lines with a contemporary decipherment / Second transcription (Codex, without seeing the first): 67.3% sign-name agreement (82.8% after correcting for signs given a different name). Details in [docs/METHOD.en.md](docs/METHOD.en.md) |
 | Use of AI | Transcription, inferred values, decoding, scripts and documents by Claude (Claude Opus 5.5); second transcription by OpenAI Codex. A person chose the target, saved the images and decided on publication (see "Use of AI" below) |
@@ -32,12 +32,12 @@ A reading of the enciphered part of a letter from Marshal Matignon to King Henri
 - From now on, less firing and a step-by-step approach. The army is worn out; payment of the troops matters most.
 - The Duke of Mayenne has a fever, but the physicians are hopeful and there is no sign of danger.
 
-## What is new here, and what it rests on
+## What this reading adds, and what it rests on
 **It rests on**
 - Tomokiyo's reconstruction of Cipher-2 ([henryiii_MayenneForget2.png](https://cryptiana.web.fc2.com/code/henryiii_MayenneForget2.png); not copied here).
 - Tomokiyo's and Bourdeau's identification of this letter as Cipher-2 and unread.
 
-**New here**
+**Added here**
 1. A sign-by-sign transcription of the three pages (`data/transcription_*.txt`).
 2. Values for signs not in the table, inferred from this letter (27 = d, 17 = tant, a hooked sign = tout, underlined gg = par, …; `inferred` in `data/key.tsv`). Ten of them agree with the key Brett Burford built for fr. 15573 f. 385 against decipherments of the time, but most were checked here after seeing his key ([docs/METHOD.en.md](docs/METHOD.en.md)).
 3. The content of the letter.

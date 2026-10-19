@@ -1,11 +1,11 @@
-# Matignon から国王への暗号書簡（Monségur の前の陣、1586年5月）の第一の読み
+# Matignon から国王への暗号書簡（Monségur の前の陣、1586年5月）の読み（暫定）
 
 [English README](README.en.md)
 
 | | |
 |---|---|
 | 状態 | **部分的な読み**（3ページの大半が文として通るが、値の分からない記号28か所と読めない箇所がある） |
-| 先行との関係 | 先行の読みは見つかっていない（友清氏は undeciphered、Bourdeau 氏の台帳は never attempted）。表は友清氏の復元、推定した値の一部は Burford 氏の鍵と一致（下の「先行研究の成果」） |
+| 先行との関係 | 2026-10-19〜20 に調べた先（[SOURCES.md](SOURCES.md)）では、この書簡の先行の読みが見当たらない（友清氏は undeciphered、Bourdeau 氏の台帳は never attempted）。解いたのとは別のセッションによる先行の確かめはまだしていないので、「初めて」とは言わない。表は友清氏の復元、推定した値の一部は Burford 氏の鍵と一致（下の「先行研究の成果」） |
 | 人の確認 | **人は書き起こしを確かめていない。** 書き起こしは2回とも AI（1回目 Claude、2回目 Codex）によるもの。AI どうしの一致は、人の確認の代わりにならない |
 | 数字 | 対照：鍵をかき混ぜた1000回で本物以上は3ページとも0回／較正：当時の解読がある6行で文字の一致率74.8%／2回目の書き起こし（Codex、1回目を見せずに）との記号名の一致率67.3%（同じ記号に別の名前を付けたずれを補正すると82.8%）。詳しくは [docs/METHOD.md](docs/METHOD.md) |
 | AI の使用 | 書き起こし・鍵の補い・解読・スクリプト・文書は Claude（Claude Opus 5.5）、2回目の書き起こしは OpenAI Codex。人は対象の選定・画像の保存・公開の判断（下の「AI の使用」） |
@@ -37,7 +37,7 @@
 ## 先行研究の成果と、この読みで加えたこと
 **前提にしたもの**
 - Cipher-2 の表：友清理士氏の復元（[henryiii_MayenneForget2.png](https://cryptiana.web.fc2.com/code/henryiii_MayenneForget2.png)）。表の画像はこのリポジトリに含めていません。
-- この書簡が Cipher-2 で、未解読であること：友清理士氏、D. Bourdeau 氏。
+- この書簡が Cipher-2 で、読まれていないとされていること：友清理士氏（undeciphered）、D. Bourdeau 氏（never attempted）。
 
 **この読みで加えたこと**
 1. 3ページの記号を、記号名で行ごとに書き起こした（`data/transcription_*.txt`）。
