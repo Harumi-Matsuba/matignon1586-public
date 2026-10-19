@@ -33,6 +33,8 @@
 - 丸い ℒ：necessaire・faire・fault では a（書き起こしでは A<）、enployer・reconois では n（Ln）。Burford 氏の鍵でも a／n の両方。
 - ɍ 形：perdirent・aussy perdu では p、meilleurs・hommes では s と読むと合う。
 - 4H（e）と #（r）：necessaire・medecins の e は、形が # に近いので 4H? と書いた。
+- # と横線つきの tt（les）、ϖ の山2つ（il）と3つ（est）：較正で取り違えが見つかった。f. 218r の2か所は直したが、ほかにも残っている可能性がある。
+- χ°（鍵では q）と、横線つきの h（鍵では armée）：較正の行では pour、tous と読むと合った。この書簡の該当箇所（f. 218v 9行の χ°、f. 219r 1行の .χ°.）は確かめ直していない。
 
 ## 人名・地名で確かめていないこと
 - **Sacramore de Birague**：Fugger 新聞の人名索引に「Birago, Sagamoro † 1587」（軍人）がある（https://fuggerzeitungen.univie.ac.at/en/personen/birago-sagamoro ）。Monségur の包囲での負傷を書いた刊本は見つけていない。Burford 氏の fr. 15573 f. 385 の読みにも « sacramor[e] » が出る。

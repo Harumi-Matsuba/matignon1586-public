@@ -7,6 +7,9 @@
   - 226コマ：f. 218v（左）と f. 219r（右）。https://gallica.bnf.fr/ark:/12148/btv1b9061879d/f226.item
   - 227コマ：f. 219v（宛名と封。暗号はない）。
 
+- **BnF, Français 15573**（較正に使った）
+  - Gallica ark:/12148/btv1b90618780 の212コマ：f. 103v（Mayenne から国王へ、1586年9月）。暗号1〜6行目と、左余白の当時の解読。https://gallica.bnf.fr/ark:/12148/btv1b90618780/f212.item
+
 画像は再配布していません。コマ番号で参照してください。Source gallica.bnf.fr / BnF.
 
 ## 鍵
@@ -18,7 +21,8 @@
 ## 照らした研究
 - Brett Burford, *First reading of the whole cipher letter BnF fr. 15573 f. 385 (Mayenne-Forget Cipher-2, 1586)*
   - https://github.com/BravoBravoIX/mayenne-forget-1586-cipher-reading （2026-10-19 10:23 UTC の版、CC BY 4.0）
-  - `data/key-cipher2.json` の値と、この書簡の推定を比べた（[docs/METHOD.md](docs/METHOD.md)）。同リポジトリのファイルは含めていない。
+  - `data/key-cipher2.json` の値と、この書簡の推定を比べた（[docs/METHOD.md](docs/METHOD.md)）。
+  - 較正の参照には、同リポジトリの `data/known-text/f103v-decipherment.txt`（当時の解読の目読み）の冒頭を使った（`calib/ref_f103v_l1-6.txt`。出典を明記）。ほかのファイルは含めていない。
 
 ## 先行の確かめ（2026-10-19〜20）
 見つからないことは、手を付けた人がいないことの証明にはなりません。

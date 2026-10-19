@@ -1,11 +1,13 @@
 このリポジトリは、部分ごとに次のライセンスで公開する。
 
 1. コード（src/ と tests/ の中のファイル）: MIT License
-2. 文書とデータの自作部分（README.md、README.en.md、SOURCES.md、docs/、data/）:
+2. 文書とデータの自作部分（README.md、README.en.md、SOURCES.md、docs/、data/、calib/）:
    Creative Commons Attribution 4.0 International (CC BY 4.0)
    https://creativecommons.org/licenses/by/4.0/
    ただし data/key.tsv の table の値は、友清理士氏が復元した表（Cryptiana）を記号名に置き換えたもの。
    その表の権利は同氏にある。
+   calib/ref_f103v_l1-6.txt の文字は、Brett Burford 氏の目読み（CC BY 4.0、
+   https://github.com/BravoBravoIX/mayenne-forget-1586-cipher-reading ）による。
 
 引用した史料・他の研究の内容には、上のライセンスは及ばない。
 

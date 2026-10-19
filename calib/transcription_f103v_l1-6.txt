@@ -1,0 +1,8 @@
+# 較正：BnF fr.15573 f.103v（Gallica ark:/12148/btv1b90618780 の212コマ）の暗号1〜6行目。当時の解読を見る前に書き起こした（2026-10-20）
+# 左端に余白の解読の切れ端が写っているが、読まないようにした
+c01: s? + 4H J dl th xs n // 6 J =bien | .12. n r5 r .3. | # 4H rC 4 xs r rh .d.?
+c02: xo r5 r zk r5 en2 9 rh dl =plus n r T # f | zk r oc n 8 4H J | pl lq 4 s dl
+c03: rC =que | 8 n en2 6 r fn a # r L 4H 2 fi rC | =et | 9 curl 6 + =est lq rC n 6
+c04: s // 40 o3 9 r fn 8 | 27 =ment lq r zk 4 n rC | .20. =est 6 y2 + fi 4 .20. r th
+c05: // r5 9 # dl | 9 // pi a dl 6 fi r5 .12. =est r5 4 6 tri 4H r5 f | .3. | # r zk 4
+c06: * dl r5 =la 9 # n x fn r # dl =est 4 6 f | A< Qh J rh r J // lq x J

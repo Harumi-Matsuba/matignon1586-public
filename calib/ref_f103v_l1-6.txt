@@ -1,0 +1,4 @@
+# 当時の解読（f.103v 左余白）のうち、暗号1〜6行目に当たる部分。
+# 文字は Brett Burford 氏のリポジトリ（BravoBravoIX/mayenne-forget-1586-cipher-reading、data/known-text/f103v-decipherment.txt、CC BY 4.0）の目読みによる。
+# 6行目の暗号の終わりが « resoluz » に当たるのは、こちらの解読の行末（…sresolus）から判断した。
+Nous eussions bien desiré de repasser Dordoigne pour reprendre plusieurs petites places que tiennent les ennemys, et dont ilz incommodent extremement le pays. Mais il n'y a jamais eu ordre d'obtenir des estrangers de repasser la riviere, estans tous resoluz
