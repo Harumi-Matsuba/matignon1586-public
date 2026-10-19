@@ -33,3 +33,4 @@ c32 aire uenir DE LA bretaigne POUR ataindre
 c33 LA re colte quant a us forces elus di
 c34 minuent TOUT s LES iours ET ueoy QUE ce sera ENCORE
 # 記号 927 個のうち、表と推定を合わせて値が付いたもの 921 個（99.4%）
+# 921 of 927 signs (99.4%) given a value by table and inferred values

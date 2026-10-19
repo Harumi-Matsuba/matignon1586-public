@@ -1,3 +1,4 @@
+# EN: Sign-by-sign transcription of the cipher of BnF fr. 15572 f. 218v (Gallica view 226, left page), read by eye on 20 Oct 2026; not final. Sign names are those of data/key.tsv; | = a divider stroke; a trailing ? = shape uncertain; <...> = a sign not yet named.
 # BnF fr.15572 f.218v 暗号部分の書き起こし（2026-10-19、目視。確定ではない）
 # 画像：Gallica ark:/12148/btv1b9061879d の226コマ（左ページ）。https://gallica.bnf.fr/ark:/12148/btv1b9061879d/f226.item
 # 記号名は key.tsv。| は原本の縦線（区切り）。末尾の ? は形の読みに自信がないもの。<…> は名前を付けていない記号。

@@ -1,3 +1,4 @@
+# EN: Apply data/key.tsv to a transcription and print the plaintext line by line. Usage: python3 src/decode.py data/key.tsv data/transcription_f218r.txt [--table-only]  (--table-only: use only values from Tomokiyo's table)
 # key.tsv を transcription_*.txt に当てて平文を出す。
 # 使い方: python3 src/decode.py data/key.tsv data/transcription_f218r.txt [--table-only]
 #   --table-only : 出典が table の記号だけを使う（inferred は [?] にする）
@@ -51,4 +52,6 @@ if __name__ == '__main__':
     for lab, s in decode(lines, key):
         print(lab, s)
     label = '表（Tomokiyo）の記号だけで' if '--table-only' in sys.argv else '表と推定を合わせて'
+    label_en = "Tomokiyo's table alone" if '--table-only' in sys.argv else 'table and inferred values'
     print(f'# 記号 {n_all} 個のうち、{label}値が付いたもの {n_ok} 個（{n_ok/n_all:.1%}）')
+    print(f'# {n_ok} of {n_all} signs ({n_ok/n_all:.1%}) given a value by {label_en}')

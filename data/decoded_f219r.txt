@@ -18,3 +18,4 @@ c17 cins EN ont fort bon[?][?]einion ET ny
 c18 a dieu mercr cp aucun indice DE peril
 c19 MAIS [?] [?] DE longeur
 # 記号 499 個のうち、表と推定を合わせて値が付いたもの 486 個（97.4%）
+# 486 of 499 signs (97.4%) given a value by table and inferred values

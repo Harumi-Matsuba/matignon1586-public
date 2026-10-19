@@ -1,3 +1,4 @@
+# EN: Calibration: cipher lines 1-6 of BnF fr. 15573 f. 103v (Gallica ark:/12148/btv1b90618780, view 212), transcribed on 20 Oct 2026 BEFORE the decipherment of the time was looked at. Fragments of the margin decipherment at the left edge were not read.
 # 較正：BnF fr.15573 f.103v（Gallica ark:/12148/btv1b90618780 の212コマ）の暗号1〜6行目。当時の解読を見る前に書き起こした（2026-10-20）
 # 左端に余白の解読の切れ端が写っているが、読まないようにした
 c01: s? + 4H J dl th xs n // 6 J =bien | .12. n r5 r .3. | # 4H rC 4 xs r rh .d.?

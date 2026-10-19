@@ -59,4 +59,6 @@ python3 -m unittest discover -s tests
 | calib/、src/calib.py | 較正（fr. 15573 f. 103v の6行）の書き起こし・参照・突き合わせ |
 | SOURCES.md | 出典と、先行の確かめ |
 
+どの文書にも英語版があります（ファイル名に `.en` が付いたもの。例：docs/METHOD.en.md）。data/key.tsv には英語の説明の列があります。
+
 ライセンス：コードは MIT、自作の文書とデータは CC BY 4.0（[LICENSE](LICENSE)）。

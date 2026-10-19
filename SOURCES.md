@@ -1,5 +1,7 @@
 # 出典
 
+[English](SOURCES.en.md)
+
 ## 一次資料（リポジトリには含めていない）
 - **BnF, Français 15572**（1586年1月〜7月の書簡集）
   - Gallica ark:/12148/btv1b9061879d
@@ -36,6 +38,8 @@
 | pangoleen/cipher-readings | 該当するフォルダなし |
 | Cryptoole（https://cryptoole.satoru.net/ 、API で全854件） | この書簡の項目なし |
 | GitHub のリポジトリ検索、ウェブ検索 | 関係するのは上の BravoBravoIX だけ |
+
+公開に切り替える直前（2026-10-19 15:26 UTC 頃）にも確かめ直した（台帳の 15:00 UTC 以降の issue、BravoBravoIX の新しいリポジトリ、GitHub 検索）。新しいものはなかった。
 
 調べていない先：DECODE の検索画面、Lasry 氏の論文一覧。
 

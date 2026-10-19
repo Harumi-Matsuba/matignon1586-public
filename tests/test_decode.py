@@ -1,3 +1,4 @@
+# EN: Tests: key sources, the --table-only switch, data/decoded_*.txt up to date, and known words present.
 import os
 import subprocess
 import sys

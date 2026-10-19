@@ -6,7 +6,7 @@ A reading of the enciphered part of a letter from Marshal Matignon to King Henri
 
 - Source: BnF Français 15572, Gallica ark:/12148/btv1b9061879d, views 225 (f. 218r) and 226 (ff. 218v–219r). f. 218r has 26 cipher lines after clear text, f. 218v is all cipher (34 lines), f. 219r has 19 cipher lines, then the clear closing and signature.
 - Closing: « Du camp devant Monsegur ce [?] May 1586 », signed Matignon (checked on the image).
-- Status before this work: Tomokiyo lists ff. 218–219 as Cipher-2, "undeciphered" ([Cryptiana](https://cryptiana.web.fc2.com/code/henryiii.htm)); D. Bourdeau's ledger (cyphersolver), item 12: "never attempted" (version of 18 Oct 2026). We found no reading of this letter in the places we searched on 19–20 Oct 2026 (listed in [SOURCES.md](SOURCES.md), in Japanese).
+- Status before this work: Tomokiyo lists ff. 218–219 as Cipher-2, "undeciphered" ([Cryptiana](https://cryptiana.web.fc2.com/code/henryiii.htm)); D. Bourdeau's ledger (cyphersolver), item 12: "never attempted" (version of 18 Oct 2026). We found no reading of this letter in the places we searched on 19–20 Oct 2026 (listed in [SOURCES.en.md](SOURCES.en.md)).
 
 ## Status (v0.1, partial)
 | page | signs | given a value by Tomokiyo's table alone | with inferred values | shuffled-key controls (1,000) scoring at or above the real key |
@@ -15,7 +15,7 @@ A reading of the enciphered part of a letter from Marshal Matignon to King Henri
 | f. 218v | 927 | 90.4% | 99.5% | 0 |
 | f. 219r | 499 | 89.8% | 97.4% | 0 |
 
-- Most of all three pages reads as French ([docs/READING.md](docs/READING.md); the reading is in French, the notes in Japanese). 28 signs have no value and a few short passages are unread ([docs/OPEN.md](docs/OPEN.md)).
+- Most of all three pages reads as French ([docs/READING.en.md](docs/READING.en.md)). 28 signs have no value and a few short passages are unread ([docs/OPEN.en.md](docs/OPEN.en.md)).
 - **Calibration**: six cipher lines of fr. 15573 f. 103v (same cipher, contemporary decipherment in the margin) were read blind with the same names and key. Against that decipherment the letter agreement is 74.8% (71.0% with Tomokiyo's table alone). Nearly half of the differences come from code signs missing from the key (a place name, a long word); the rest are mostly confusions of similar signs. Read the reading here with that in mind.
 
 ## Content (summary)
@@ -31,7 +31,7 @@ A reading of the enciphered part of a letter from Marshal Matignon to King Henri
 
 **New here**
 1. A sign-by-sign transcription of the three pages (`data/transcription_*.txt`).
-2. Values for signs not in the table, inferred from this letter (27 = d, 17 = tant, a hooked sign = tout, underlined gg = par, …; `inferred` in `data/key.tsv`). Ten of them agree with the key Brett Burford built for fr. 15573 f. 385 against decipherments of the time, but most were checked here after seeing his key ([docs/METHOD.md](docs/METHOD.md)).
+2. Values for signs not in the table, inferred from this letter (27 = d, 17 = tant, a hooked sign = tout, underlined gg = par, …; `inferred` in `data/key.tsv`). Ten of them agree with the key Brett Burford built for fr. 15573 f. 385 against decipherments of the time, but most were checked here after seeing his key ([docs/METHOD.en.md](docs/METHOD.en.md)).
 3. The content of the letter.
 
 ## Use
@@ -41,6 +41,20 @@ python3 src/decode.py data/key.tsv data/transcription_f218r.txt --table-only
 python3 src/control.py data/key.tsv data/transcription_f218r.txt 1000   # needs wordfreq
 python3 -m unittest discover -s tests
 ```
+
+## Files
+| path | contents |
+|---|---|
+| data/transcription_f218r.txt etc. | sign-by-sign transcription, line by line |
+| data/key.tsv | sign name → value, with its source (table / inferred / unknown) and the shape and evidence in Japanese and English |
+| data/decoded_*.txt | output of `src/decode.py` |
+| docs/READING.en.md | the reading (French, with punctuation added) and a summary |
+| docs/METHOD.en.md | method, figures, calibration, use of AI, limits |
+| docs/OPEN.en.md | signs with no value, unread passages, facts not checked |
+| calib/, src/calib.py | the calibration on fr. 15573 f. 103v |
+| SOURCES.en.md | sources and the search for earlier work |
+
+Every document also has a Japanese version (the file name without `.en`).
 
 ## Use of AI
 Transcription, inferred values, decipherment, scripts and documents were done by Anthropic's Claude (Claude Code, Claude Opus 5.5). A person chose the target, saved the images and decided on publication.

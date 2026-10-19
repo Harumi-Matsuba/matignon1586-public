@@ -1,3 +1,4 @@
+# EN: Calibration: compare the decode of a transcription with a reference plaintext letter by letter (edit distance). Usage: python3 src/calib.py data/key.tsv calib/transcription_f103v_l1-6.txt calib/ref_f103v_l1-6.txt [--table-only]
 # 較正：当時の解読がある行で、書き起こし＋鍵から出した文字列と、当時の解読を文字の単位で突き合わせる。
 # 使い方: python3 src/calib.py data/key.tsv calib/transcription_f103v_l1-6.txt calib/ref_f103v_l1-6.txt [--table-only]
 # 参照の平文は、1行目から書き起こしの最後の行までに当たる当時の解読（# で始まる行は読まない）。
@@ -48,7 +49,7 @@ if __name__ == '__main__':
     hyp = decoded_stream(load_lines(args[1]), key)
     ref = letters(''.join(l for l in open(args[2], encoding='utf-8') if not l.startswith('#')))
     dist, sub, dele, ins, ops = align(ref, hyp)
-    print(f'参照の文字数 {len(ref)}、解読の文字数 {len(hyp)}')
-    print(f'編集距離 {dist}（置換 {sub}、解読側の脱落 {dele}、解読側の余分 {ins}）')
-    print(f'文字の一致率 1−距離/参照 = {1 - dist/len(ref):.1%}')
-    print('違い（参照の位置、参照、解読）:', ' '.join(f'{p}:{r}>{h}' for p, r, h in ops))
+    print(f'参照の文字数 {len(ref)}、解読の文字数 {len(hyp)} / reference letters {len(ref)}, decoded letters {len(hyp)}')
+    print(f'編集距離 {dist}（置換 {sub}、解読側の脱落 {dele}、解読側の余分 {ins}） / edit distance {dist} (substitutions {sub}, missing {dele}, extra {ins})')
+    print(f'文字の一致率 1−距離/参照 = {1 - dist/len(ref):.1%} / letter agreement 1 - distance/reference = {1 - dist/len(ref):.1%}')
+    print('違い（参照の位置、参照、解読） / differences (position, reference, decoded):', ' '.join(f'{p}:{r}>{h}' for p, r, h in ops))

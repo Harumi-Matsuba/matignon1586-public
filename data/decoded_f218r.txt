@@ -25,3 +25,4 @@ c24 ent ce iour LA DES meileur p honep QUI lsy
 c25 eusent u IL sen EST ausyperdu DES [?][?]dix
 c26 oud[?]use soldats ET UN uingtaine DE b
 # 記号 713 個のうち、表と推定を合わせて値が付いたもの 704 個（98.7%）
+# 704 of 713 signs (98.7%) given a value by table and inferred values

@@ -1,5 +1,7 @@
 # 未解決の点
 
+[English](OPEN.en.md)
+
 ## 値が分からない記号（28か所、3ページの記号2,139個のうち）
 `src/decode.py` で値が付かない記号。行番号は `data/transcription_*.txt` の c 番号。
 

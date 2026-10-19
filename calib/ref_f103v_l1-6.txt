@@ -1,3 +1,4 @@
+# EN: The decipherment of the time (left margin of f. 103v) for cipher lines 1-6. Letters from Brett Burford's eye reading (BravoBravoIX/mayenne-forget-1586-cipher-reading, data/known-text/f103v-decipherment.txt, CC BY 4.0), checked on view 212; « la riviere » changed to « lad riviere » to follow the abbreviation lad[icte]. That line 6 ends at « resoluz » was judged from the end of our decode (…sresolus).
 # 当時の解読（f.103v 左余白）のうち、暗号1〜6行目に当たる部分。
 # 文字は Brett Burford 氏のリポジトリ（BravoBravoIX/mayenne-forget-1586-cipher-reading、data/known-text/f103v-decipherment.txt、CC BY 4.0）の目読みによる。
 # 画像（212コマの左余白）で確かめ、« lad[icte] riviere » の略記に合わせて « la riviere » を « lad riviere » に直した（2026-10-20）。

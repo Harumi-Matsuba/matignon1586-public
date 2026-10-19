@@ -1,3 +1,4 @@
+# EN: Shuffled-key control: compare the French-likeness (mean letter-trigram log-likelihood from wordfreq's top 50,000 French words) of the real key with keys whose letter values are permuted. Usage: python3 src/control.py data/key.tsv data/transcription_f218r.txt [N] [--table-only]
 # 対照実験：表の文字記号の値をかき混ぜた鍵と、本物の鍵とで、平文のフランス語らしさを比べる。
 # フランス語らしさ＝文字3連の対数尤度の平均（wordfreq の仏語上位5万語を頻度で重み付けして作る）。
 # 単語記号（=que、.3. など）は採点から外し、1文字の記号の並びだけを採点する。
@@ -62,7 +63,7 @@ if __name__ == '__main__':
         k2 = dict(key); k2.update(zip(letters, vals))
         sh.append(score(rs, k2, lp))
     sh.sort()
-    print(f'採点した文字数（記号）: {sum(len(r) for r in rs)}、文字の記号の種類: {len(letters)}')
-    print(f'本物の鍵: {real:.3f}')
-    print(f'かき混ぜた鍵 {N} 回: 最小 {sh[0]:.3f} / 中央 {sh[N//2]:.3f} / 最大 {sh[-1]:.3f}')
-    print(f'本物以上になった回数: {sum(1 for x in sh if x >= real)} / {N}')
+    print(f'採点した文字数（記号）: {sum(len(r) for r in rs)}、文字の記号の種類: {len(letters)} / letters scored: {sum(len(r) for r in rs)}, letter sign types: {len(letters)}')
+    print(f'本物の鍵 / real key: {real:.3f}')
+    print(f'かき混ぜた鍵 {N} 回 / {N} shuffled keys: 最小 min {sh[0]:.3f} / 中央 median {sh[N//2]:.3f} / 最大 max {sh[-1]:.3f}')
+    print(f'本物以上になった回数 / shuffled >= real: {sum(1 for x in sh if x >= real)} / {N}')
