@@ -1,0 +1,22 @@
+# EN: Recheck on the images (20 Oct 2026) of the 19 corrections of second/review_f218v_f219r.tsv by two other models, OpenAI Codex (codex-cli 0.163.0-alpha.10.2, default model) and Claude Sonnet. Each was shown the line images, the specimen sheet and the two readings (before / after the correction, in random order as A/B), no values. "both after" = both chose the corrected reading; "split" = they disagreed or one could not tell; "both before" = both chose the earlier reading (none).
+# 見直しで直した19か所を、別の2つのモデル（OpenAI Codex と Claude Sonnet）に画像で確かめ直させた結果（2026-10-20）。行画像・見本表・2つの読み（直す前と後。A・B の順は乱数）だけを渡し、値は渡していない。
+page	line	before	after	codex	sonnet	result
+f218v	c01	x	r	after	after	both after
+f218v	c02	*	xs	after	N	split
+f218v	c07	+	-	after	after	both after
+f218v	c09	f	fi	after	before	split
+f218v	c09	xo?	xo	N	before	split
+f218v	c10	*	xs	after	N	split
+f218v	c17	=pour?	xo	before	after	split
+f218v	c19	=pour?	xo	before	after	split
+f218v	c19	=pour?	xo	before	after	split
+f218v	c20	f	fi	N	before	split
+f218v	c22	a	th	after	after	both after
+f218v	c30	=pour	xo	before	after	split
+f218v	c31	lq	y	after	after	both after
+f218v	c32	=pour	xo	before	after	split
+f219r	c07	=pour	xo	before	after	split
+f219r	c13	-	r	after	after	both after
+f219r	c16	x	xs	after	after	both after
+f219r	c18	r5 s zk	zk?	after	after	both after
+f219r	c18	dl	r	after	after	both after

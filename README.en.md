@@ -60,7 +60,7 @@ python3 -m unittest discover -s tests
 | docs/METHOD.en.md | method, figures, calibration, use of AI, limits |
 | docs/OPEN.en.md | signs with no value, unread passages, facts not checked |
 | calib/, src/calib.py | the calibration on fr. 15573 f. 103v |
-| second/, src/compare2.py | second transcriptions (Codex v1–v4), prompts, run logs, comparison with the first, and the list of the image review (second/review_f218v_f219r.tsv) |
+| second/, src/compare2.py | second transcriptions (Codex v1–v4), prompts, run logs, comparison with the first, and the list of the image review (second/review_f218v_f219r.tsv) with its recheck by two other models (second/recheck_f218v_f219r.tsv) |
 | SOURCES.en.md | sources and the search for earlier work |
 
 Every document also has a Japanese version (the file name without `.en`).
